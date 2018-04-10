@@ -57,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR,'templates')],
-        'APP_DIRS': False,
+        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'int81',
         'USER': 'root',
         'PASSWORD': 'P@ssword',
-        "HOST": "192.168.10.201",
+        "HOST": "localhost",
     }
 }
 
@@ -110,21 +110,23 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'Asia/Shanghai'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_L10N = False
+USE_L10N = True
 
-USE_TZ = False
+USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR,"static")]
-STATICFILES_FINDERS = (  
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,"static"),
+]
+STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',  
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',  
 )
