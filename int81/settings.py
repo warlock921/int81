@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'int81',
         'USER': 'root',
         'PASSWORD': 'P@ssword',
-        "HOST": "localhost",
+        "HOST": "192.168.10.201",
     }
 }
 
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
