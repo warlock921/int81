@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="{% static '/image/favicon.ico' %}">
-    <title>INT81 首页</title>
+    <title>{% block title %}{% endblock title %}</title>
     <link href="{% static 'css/bootstrap-3.3.7/css/bootstrap.min.css' %}" rel="stylesheet">
 </head>
 <body>
@@ -26,13 +26,13 @@
                     <li class="active"><a href="{% url 'home' %}">首页</a></li>
                     <li><a href="{% url 'blog_list' %}">博客</a></li>
                 </ul>
-            </div>
+            </div><!--/.nav-collapse -->
         </div>
     </div>
     <div style="margin-top: 70px">
-        <h1>我们是全心全意的全干工程师</h1>
+        {% block content %}{% endblock content %}
     </div>
-
+    {# 导入JS文件 #}
     <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'css/bootstrap-3.3.7/js/bootstrap.min.js' %}"></script>
 </body>

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ blog_type.type_name }}分类博客页面
+{% endblock title %}
+
+{% block content %}
+    这里有 {{ blog_detail_selected | length }} 篇关于 {{ blog_type.type_name }} 的博客
+    {% for blog_selected in blog_detail_selected%}
+        <h2><a href="{% url 'blog_detail' blog_selected.pk %}">{{ blog_selected.title }}</a></h2>
+        <p>作者：{{ blog_selected.author }}</p>
+        <p>创建时间：{{ blog_selected.create_time | date:"Y-m-d H:m:s" }}</p>
+        <p>最后修改时间：{{ blog_selected.last_updated_time | date:"Y-m-d H:m:s" }}</p>
+        <p>分类：<a href="">{{ blog_selected.blog_type }}</a></p>
+        <p>{{ blog_selected.content | truncatechars:30 }}</p>
+    {% endfor %}
+{% endblock content %}
