@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors warlock921 (caoyu921@163.com)
+ * @date    2018-04-12 09:11:06
+ * @version $Id$
+ */
+
+* {
+
+    margin:0;
+    padding: 0;
+
+}
+
+.base-body {
+    margin:2em;
+    padding: 2em;
+}
+
+ .navbar-default {
+    background-color: #f8f8f8c2;
+    border-color: #e7e7e7;
+}

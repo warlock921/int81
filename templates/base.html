@@ -8,32 +8,37 @@
         <link rel="icon" href="{% static '/image/favicon.ico' %}">
     <title>{% block title %}{% endblock title %}</title>
     <link href="{% static 'css/bootstrap-3.3.7/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/default.css' %}">
 </head>
-<body>
-    <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+<body class="base-body">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
             <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <!-- <img alt="Brand" width="20" height="20" src="{% static 'image/int81-logo.jpg' %}"> -->
+                    <span>INT81 全栈方程式</span>
+                </a>
+
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">INT81 全栈方程式</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="{% url 'home' %}">首页</a></li>
-                    <li><a href="{% url 'blog_list' %}">博客</a></li>
+                    <li class="{% block home-active %}{% endblock home-active %}"><a href="{% url 'home' %}">首页</a></li>
+                    <li class="{% block blog-active %}{% endblock blog-active %}"><a href="{% url 'blog_list' %}">博客</a></li>
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
         </div>
-    </div>
-    <div style="margin-top: 70px">
-        {% block content %}{% endblock content %}
-    </div>
-    {# 导入JS文件 #}
-    <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'css/bootstrap-3.3.7/js/bootstrap.min.js' %}"></script>
+    </nav>
+
+    {% block content %}{% endblock content %}
+    
+</div>
+{# 导入JS文件 #}
+<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'css/bootstrap-3.3.7/js/bootstrap.min.js' %}"></script>
 </body>
 </html>
