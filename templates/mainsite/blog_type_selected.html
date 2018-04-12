@@ -9,8 +9,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                
-                
                 {% for  blog_selected in blog_detail_selected %}
                     <h2><a href="{% url 'blog_detail' blog_selected.pk %}">{{ blog_selected.title }}</a></h2>
                     <span style="margin-right: 10px">作者：{{ blog_selected.author }}</span>
@@ -24,8 +22,6 @@
                     {% empty %}
                     这里还没有博客哦！快去添加吧！
                 {% endfor %}
-                
-                
             </div>
             <div class="col-md-4">
                 <h2>博客分类</h2>
@@ -33,10 +29,10 @@
                     <p>
                         <a href="{% url 'blog_list' %}" type="button" class="btn btn-success btn-sm btn-block">全部博客({{ blog_all_list | length }})</a>
                     </p>
-                    {% for type_list in blog_types %}
+                    {% for key,value in blog_types_dict.items %}
                         
                         <p>
-                            <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_type_selected' type_list.pk %}">{{ type_list }}({{ blog_types_count }})</a>
+                            <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_type_selected' key.0 %}">{{ key.1 }} ({{ value }})</a>
                         </p>
                         
                     {% endfor %}
