@@ -7,18 +7,30 @@
  */
 
 * {
-
     margin:0;
     padding: 0;
-
 }
 
-.base-body {
-    margin:2em;
-    padding: 2em;
+body.base-body {
+    margin: 5em;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    /*border-bottom: 1px solid #eee;*/
 }
 
  .navbar-default {
     background-color: #f8f8f8c2;
     border-color: #e7e7e7;
+}
+
+ul.blog-info-decription {
+    list-style-type: none;
+    /*margin-bottom: 2em;*/
+}
+ul.blog-info-decription li {
+    display: inline-block;
+    margin-right: 2em;
+}
+div.blog-content {
+    text-indent: 2em;
 }

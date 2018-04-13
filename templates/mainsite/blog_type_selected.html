@@ -9,19 +9,28 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
+                <h2>有关 {{ blog_type }} 的博客</h2>
+                <div class="well well-sm">
                 {% for  blog_selected in blog_detail_selected %}
-                    <h2><a href="{% url 'blog_detail' blog_selected.pk %}">{{ blog_selected.title }}</a></h2>
-                    <span style="margin-right: 10px">作者：{{ blog_selected.author }}</span>
-                    <span>创建时间：{{ blog_selected.create_time | date:"Y-m-d H:m:s" }}</span>
-                    <p>分类：
-                        <a href="{% url 'blog_type_selected' blog_selected.blog_type.pk %}">
-                            {{ blog_selected.blog_type }}
-                        </a>
-                    </p>
-                    <p>{{ blog_selected.content | truncatechars:70 }}</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><a href="{% url 'blog_detail' blog_selected.pk %}">{{ blog_selected.title }}</a></h3>
+                        </div>
+                        <div class="panel-body">
+                            <span style="margin-right: 10px">作者：{{ blog_selected.author }}</span>
+                            <span>创建时间：{{ blog_selected.create_time | date:"Y-m-d" }}</span>
+                            <p>分类：
+                                <a href="{% url 'blog_type_selected' blog_selected.blog_type.pk %}">
+                                    {{ blog_selected.blog_type }}
+                                </a>
+                            </p>
+                            <p>{{ blog_selected.content | truncatechars:70 }}<span style="margin-left: 10px;"><a type="button" class="btn btn-success btn-xs" href="{% url 'blog_detail' blog_selected.pk %}">阅读更多</a></span></p>
+                        </div>
+                    </div>
                     {% empty %}
                     这里还没有博客哦！快去添加吧！
                 {% endfor %}
+                </div>
             </div>
             <div class="col-md-4">
                 <h2>博客分类</h2>

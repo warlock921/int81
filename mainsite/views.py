@@ -1,8 +1,9 @@
 from django.shortcuts import render_to_response,get_object_or_404
 from .models import Blog,BlogType
 
+#统计各文章类型所含的文章数量方法
 def blog_article_count():
-    #统计各文章类型所含的文章数量
+    
     # list(BlogType.objects.values_list('type_name',flat=True))  这是将BlogType中的类型结果集转换为列表，只取一个指定的值的方法
     #取BlogType的所有类型，并转化为一个列表
     blog_all_type = list(BlogType.objects.all())
