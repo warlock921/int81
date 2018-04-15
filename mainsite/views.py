@@ -19,6 +19,14 @@ def blog_article_count():
         blog_types_dict[blog_types_kind[i]] = blog_type_count
     return blog_types_dict
 
+#统计各年月所含的文章数量方法
+# def blog_date_count():
+#     all_blogs = list(Blog.objects.filter(create_time__year=year, create_time__month=month))
+#     all_blogs_date =list(all_blogs.values_list())
+#     blog_date_dict = {}
+
+#     for date in range(0,)
+
 #分页方法，需要传入request、每页需要的文章数、用于分页的文章总集合
 def page_2_page(request, num_of_page, need_blogs):
     # all_blogs = Blog.objects.all()
@@ -67,11 +75,20 @@ def blog_list(request):
     context['page_num'] = page_num
     #缩减后的页码范围
     context['page_range'] = page_range
+    context['blogs_date'] = Blog.objects.dates('create_time','month',order="DESC")
     return render_to_response('mainsite/blog_list.html', context)
 
 def blog_detail(request, blog_pk):
     context = {}
-    context['blog_detail'] = get_object_or_404(Blog,pk=blog_pk)
+    current_blog = get_object_or_404(Blog,pk=blog_pk)
+    context['blog_detail'] = current_blog
+
+    #查询前一条博客和后一条博客
+    previous_blog = Blog.objects.filter(create_time__gt=current_blog.create_time).last()
+    next_blog = Blog.objects.filter(create_time__lt=current_blog.create_time).first()
+    context['previous_blog'] = previous_blog
+    context['next_blog'] = next_blog
+
     context['blog_types_dict'] = blog_article_count()
     return render_to_response('mainsite/blog_detail.html', context)
 
@@ -94,3 +111,21 @@ def blog_type_selected(request, blog_type_pk):
     context['page_range'] = page_range
     
     return render_to_response('mainsite/blog_type_selected.html', context)
+
+def blog_date_selected(request, year, month):
+    context = {}
+    blog_dates = Blog.objects.filter(create_time__year=year, create_time__month=month)
+    print(blog_dates)
+    #分页
+    page_num = page_2_page(request, 4, blog_dates) #调用分页方法，4 - 代表每页的文章数
+    page_range = page_2_range(page_num) #调用页码缩减方法，传入的是分页后的数据
+
+    context['blog_dates'] = blog_dates
+    context['blog_all_list'] = Blog.objects.all()
+
+    context['blog_types_dict'] = blog_article_count() #调用博客文章计数方法
+    #传递分页后的blog文章集合信息
+    context['page_num'] = page_num
+    #缩减后的页码范围
+    context['page_range'] = page_range
+    return render_to_response('mainsite/blog_date_selected.html', context)

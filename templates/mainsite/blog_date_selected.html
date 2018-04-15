@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load staticfiles %}
-{% block title %}博客列表{% endblock title %}
+{% block title %}日期归档-博客列表{% endblock title %}
 {% block blog-active %}active{% endblock blog-active %}
 {% block content %}
     <div class="container">
@@ -9,8 +9,7 @@
         </div> -->
         <div class="row">
             <div class="col-md-10">
-                <h2>博客列表  <small><a href="{% url 'blog_list' %}">查看全部博客  </span></a>共{{ blog_list | length }}篇</small></h2>
-                       
+                <h2>日期归档-博客列表</h2>
                 <div class="well well-sm">
                      {% for blog in page_num %}
                         <div class="panel panel-info">
@@ -39,7 +38,9 @@
             <div class="col-md-2">
                 <h2>博客分类</h2>
                 <div class="well center-block">
-                   
+                    <p>
+                        <a href="{% url 'blog_list' %}" type="button" class="btn btn-success btn-sm btn-block">全部博客 <span class="badge"> {{ blog_all_list | length }} </span></a>
+                    </p>
                     {% for key,value in blog_types_dict.items %}
                         
                         <p>
@@ -51,7 +52,7 @@
                 
                 <h2>日期归档</h2>
                 <div class="well center-block">
-                    {% for blog_date in blogs_date %}
+                    {% for blog_date in blog_dates %}
                     <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_date_selected' blog_date.year blog_date.month %}">{{blog_date | date:"Y年m月"}} <span class="badge">0</span></a>
                     {% endfor %}
                     
