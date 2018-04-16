@@ -9,7 +9,7 @@
         </div> -->
         <div class="row">
             <div class="col-md-10">
-                <h2>日期归档-博客列表</h2>
+                <h2>日期归档-博客列表 <small><a href="{% url 'blog_list' %}"> 查看全部博客 </a>共{{ blog_all_list | length }}篇</small></h2>
                 <div class="well well-sm">
                      {% for blog in page_num %}
                         <div class="panel panel-info">
@@ -24,7 +24,7 @@
                                         {{ blog.blog_type }}
                                     </a>
                                 </p>
-                                <p>{{ blog.content | truncatechars:70 }}<span style="margin-left: 10px;"><a type="button" class="btn btn-success btn-xs" href="{% url 'blog_detail' blog.pk %}">阅读更多</a></span></p>
+                                <p>{{ blog.content | striptags | truncatechars:70 }}<span style="margin-left: 10px;"><a type="button" class="btn btn-success btn-xs" href="{% url 'blog_detail' blog.pk %}">阅读更多>></a></span></p>
                             </div>
                         </div>
                         {% empty %}
@@ -38,13 +38,11 @@
             <div class="col-md-2">
                 <h2>博客分类</h2>
                 <div class="well center-block">
-                    <p>
-                        <a href="{% url 'blog_list' %}" type="button" class="btn btn-success btn-sm btn-block">全部博客 <span class="badge"> {{ blog_all_list | length }} </span></a>
-                    </p>
-                    {% for key,value in blog_types_dict.items %}
+                   
+                    {% for blog_type in blog_types %}
                         
                         <p>
-                            <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_type_selected' key.0 %}">{{ key.1 }} <span class="badge">{{ value }}</span></a>
+                            <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_type_selected' blog_type.pk %}">{{ blog_type.type_name }} <span class="badge">{{ blog_type.blog_count }}</span></a>
                         </p>
                         
                     {% endfor %}
@@ -52,8 +50,8 @@
                 
                 <h2>日期归档</h2>
                 <div class="well center-block">
-                    {% for blog_date in blog_dates %}
-                    <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_date_selected' blog_date.year blog_date.month %}">{{blog_date | date:"Y年m月"}} <span class="badge">0</span></a>
+                    {% for blog_date,blog_count in blogs_date.items %}
+                    <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_date_selected' blog_date.year blog_date.month %}">{{blog_date | date:"Y年m月"}} <span class="badge">{{blog_count}}</span></a>
                     {% endfor %}
                     
                 </div>

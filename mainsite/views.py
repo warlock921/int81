@@ -1,35 +1,30 @@
 from django.shortcuts import render_to_response,get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.db.models import Count
 from .models import Blog,BlogType
 
-#统计各文章类型所含的文章数量方法
-def blog_article_count():
-    # list(BlogType.objects.values_list('type_name',flat=True))  这是将BlogType中的类型结果集转换为列表，只取一个指定的值的方法
-    #取BlogType的所有类型，并转化为一个列表
-    blog_all_type = list(BlogType.objects.all())
-    #取BlogType的所有类型的id和值，组成列表
-    blog_types_kind = list(BlogType.objects.values_list())
-    #定义一个字典
-    blog_types_dict = {}
-    #用for循环组装字典
-    for i in range(0,blog_all_type.__len__()):
-        #计算某一个博客类型中有多少篇文章，这里是一个int值
-        blog_type_count = Blog.objects.all().filter(blog_type=blog_all_type[i]).count()
-        #组装字典，该字典是以id和博客类型组成的元组作为键，博客类型的名称作为值
-        blog_types_dict[blog_types_kind[i]] = blog_type_count
-    return blog_types_dict
+# #统计各文章类型所含的文章数量方法------------此方法较为笨拙，仅供参考，已废弃
+# def blog_article_count():
+#     # list(BlogType.objects.values_list('type_name',flat=True))  这是将BlogType中的类型结果集转换为列表，只取一个指定的值的方法
+#     #取BlogType的所有类型，并转化为一个列表
+#     blog_all_type = list(BlogType.objects.all())
+#     #取BlogType的所有类型的id和值，组成列表
+#     blog_types_kind = list(BlogType.objects.values_list())
+#     #定义一个字典
+#     blog_types_dict = {}
+#     #用for循环组装字典
+#     for i in range(0,blog_all_type.__len__()):
+#         #计算某一个博客类型中有多少篇文章，这里是一个int值
+#         blog_type_count = Blog.objects.all().filter(blog_type=blog_all_type[i]).count()
+#         #组装字典，该字典是以id和博客类型组成的元组作为键，博客类型的名称作为值
+#         blog_types_dict[blog_types_kind[i]] = blog_type_count
+#     return blog_types_dict
 
-#统计各年月所含的文章数量方法
-# def blog_date_count():
-#     all_blogs = list(Blog.objects.filter(create_time__year=year, create_time__month=month))
-#     all_blogs_date =list(all_blogs.values_list())
-#     blog_date_dict = {}
 
-#     for date in range(0,)
 
 #分页方法，需要传入request、每页需要的文章数、用于分页的文章总集合
 def page_2_page(request, num_of_page, need_blogs):
-    # all_blogs = Blog.objects.all()
+    
     #分页处理
     paginator = Paginator(need_blogs, num_of_page) #分页处理，num_of_page代表每页的文章数
     #获取页面传来参数（第N页）
@@ -54,7 +49,6 @@ def page_2_range(page_num):
     if page_num.paginator.num_pages - page_range[-1] >= 2 :
         page_range.append("...")
         
-
     #判断页码，添加第一页和最后一页
     if page_range[0] != 1:
         page_range.insert(0,1)
@@ -63,21 +57,49 @@ def page_2_range(page_num):
 
     return page_range
 
-def blog_list(request):
-    all_blogs = Blog.objects.all()
-    page_num = page_2_page(request, 4, all_blogs) #调用分页方法，4 - 代表每页的文章数
+#views中应用到的公共参数获取方法----这个方法很重要，作为公共方法存在，位置、参数、变量的定义不可轻易变动
+def get_mainsite_common_parameters(request, need_blogs=Blog.objects.all()):
+    blog_all_list = Blog.objects.all()
+    # blog_types = BlogType.objects.all()
+
+    #分页
+    page_num = page_2_page(request, 4, need_blogs) #调用分页方法，4 - 代表每页的文章数
     page_range = page_2_range(page_num) #调用页码缩减方法，传入的是分页后的数据
+    
+    #定义总集合字典
     context = {}
-    context['blog_list'] = all_blogs
-    context['blog_types'] = BlogType.objects.all()
-    context['blog_types_dict'] = blog_article_count()
-    #传递分页后的blog文章集合信息
+    #所有博客集合
+    context['blog_all_list'] = blog_all_list
+
+    #所有博客类型--含统计数量
+    context['blog_types'] = BlogType.objects.annotate(blog_count=Count('blog'))#先导入 from django.db.models import Count ,然后再使用annotate
+
+
+    #博客按日期分类列表--含统计数量
+    blogs_date = Blog.objects.dates('create_time','month',order="DESC")
+    blogs_date_dict = {}
+    for blog_date in blogs_date:
+        blog_count = Blog.objects.filter(create_time__year = blog_date.year, 
+                                         create_time__month=blog_date.month).count()
+        blogs_date_dict[blog_date] = blog_count
+
+    #传递已经附加了相应文章数量的日期分类字典
+    context['blogs_date'] = blogs_date_dict
+    
+    # #传递分页后的blog文章集合信息
     context['page_num'] = page_num
-    #缩减后的页码范围
+    # #缩减后的页码范围
     context['page_range'] = page_range
-    context['blogs_date'] = Blog.objects.dates('create_time','month',order="DESC")
+
+    return context
+
+#博客列表view方法
+def blog_list(request):
+
+    context = get_mainsite_common_parameters(request)
     return render_to_response('mainsite/blog_list.html', context)
 
+#博客文章内容显示view方法
 def blog_detail(request, blog_pk):
     context = {}
     current_blog = get_object_or_404(Blog,pk=blog_pk)
@@ -89,43 +111,23 @@ def blog_detail(request, blog_pk):
     context['previous_blog'] = previous_blog
     context['next_blog'] = next_blog
 
-    context['blog_types_dict'] = blog_article_count()
     return render_to_response('mainsite/blog_detail.html', context)
 
+#按博客类型显示博客文章view方法
 def blog_type_selected(request, blog_type_pk):
-    context = {}
+    
     blog_type = get_object_or_404(BlogType,pk=blog_type_pk)
     blog_detail_selected = Blog.objects.filter(blog_type=blog_type)
-    #分页
-    page_num = page_2_page(request, 4, blog_detail_selected) #调用分页方法，4 - 代表每页的文章数
-    page_range = page_2_range(page_num) #调用页码缩减方法，传入的是分页后的数据
 
-    context['blog_all_list'] = Blog.objects.all()
-    # context['blog_detail_selected'] = blog_detail_selected
+    context = get_mainsite_common_parameters(request,blog_detail_selected)
     context['blog_type'] = blog_type
-    context['blog_types'] = BlogType.objects.all()
-    context['blog_types_dict'] = blog_article_count() #调用博客文章计数方法
-    #传递分页后的blog文章集合信息
-    context['page_num'] = page_num
-    #缩减后的页码范围
-    context['page_range'] = page_range
-    
+   
     return render_to_response('mainsite/blog_type_selected.html', context)
 
+#按博客发表年月分类显示view方法
 def blog_date_selected(request, year, month):
-    context = {}
+    
     blog_dates = Blog.objects.filter(create_time__year=year, create_time__month=month)
-    print(blog_dates)
-    #分页
-    page_num = page_2_page(request, 4, blog_dates) #调用分页方法，4 - 代表每页的文章数
-    page_range = page_2_range(page_num) #调用页码缩减方法，传入的是分页后的数据
-
-    context['blog_dates'] = blog_dates
-    context['blog_all_list'] = Blog.objects.all()
-
-    context['blog_types_dict'] = blog_article_count() #调用博客文章计数方法
-    #传递分页后的blog文章集合信息
-    context['page_num'] = page_num
-    #缩减后的页码范围
-    context['page_range'] = page_range
+    context = get_mainsite_common_parameters(request,blog_dates)
+   
     return render_to_response('mainsite/blog_date_selected.html', context)
