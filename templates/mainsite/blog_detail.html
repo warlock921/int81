@@ -21,7 +21,7 @@
             <ul class="pager">
                 {% if previous_blog %}
                     <li class="previous">
-                        <a href="{% url 'blog_detail' previous_blog.pk %}"><span aria-hidden="true">&larr;</span> {{previous_blog.title}}</a>
+                        <a href="{% url 'blog_detail' previous_blog.pk %}" data-toggle="tooltip" data-placement="right" title="{{ previous_blog.title }}"><span aria-hidden="true">&larr;</span> {{previous_blog.title | truncatechars:6}}</a>
                     </li>
                 {% else %}
                     <li class="previous disabled">
@@ -30,7 +30,7 @@
                 {% endif %}
                 {% if next_blog %}
                     <li class="next">
-                        <a href="{% url 'blog_detail' next_blog.pk %}">{{next_blog.title}} <span aria-hidden="true">&rarr;</span></a>
+                        <a href="{% url 'blog_detail' next_blog.pk %}" data-toggle="tooltip" data-placement="left" title="{{ next_blog.title }}">{{next_blog.title | truncatechars:6}} <span aria-hidden="true">&rarr;</span></a>
                     </li>
                 {% else %}
                     <li class="next disabled">

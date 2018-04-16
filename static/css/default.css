@@ -18,6 +18,10 @@ body.base-body {
     /*border-bottom: 1px solid #eee;*/
 }
 
+div.blog-content-list {
+    margin-bottom: 0em;
+}
+
  .navbar-default {
     background-color: #f8f8f8c2;
     border-color: #e7e7e7;
