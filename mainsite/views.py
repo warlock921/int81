@@ -2,6 +2,7 @@ from django.shortcuts import render_to_response,get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Count
 from .models import Blog,BlogType
+from read_statistics.utils import read_statistics_once_read
 
 # #统计各文章类型所含的文章数量方法------------此方法较为笨拙，仅供参考，已废弃
 # def blog_article_count():
@@ -19,8 +20,6 @@ from .models import Blog,BlogType
 #         #组装字典，该字典是以id和博客类型组成的元组作为键，博客类型的名称作为值
 #         blog_types_dict[blog_types_kind[i]] = blog_type_count
 #     return blog_types_dict
-
-
 
 #分页方法，需要传入request、每页需要的文章数、用于分页的文章总集合
 def page_2_page(request, num_of_page, need_blogs):
@@ -95,23 +94,24 @@ def get_mainsite_common_parameters(request, need_blogs=Blog.objects.all()):
 
 #博客列表view方法
 def blog_list(request):
-
     context = get_mainsite_common_parameters(request)
     return render_to_response('mainsite/blog_list.html', context)
 
 #博客文章内容显示view方法
 def blog_detail(request, blog_pk):
-    context = {}
     current_blog = get_object_or_404(Blog,pk=blog_pk)
+    read_cookie_key = read_statistics_once_read(request, current_blog)
+    context = {}
     context['blog_detail'] = current_blog
-
     #查询前一条博客和后一条博客
     previous_blog = Blog.objects.filter(create_time__gt=current_blog.create_time).last()
     next_blog = Blog.objects.filter(create_time__lt=current_blog.create_time).first()
     context['previous_blog'] = previous_blog
     context['next_blog'] = next_blog
 
-    return render_to_response('mainsite/blog_detail.html', context)
+    response = render_to_response('mainsite/blog_detail.html', context)
+    response.set_cookie(read_cookie_key, 'true')
+    return response
 
 #按博客类型显示博客文章view方法
 def blog_type_selected(request, blog_type_pk):

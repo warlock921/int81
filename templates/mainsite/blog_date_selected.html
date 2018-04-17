@@ -17,13 +17,12 @@
                                 <h2 class="panel-title"><a href="{% url 'blog_detail' blog.pk %}">{{ blog.title }}</a></h2>
                             </div>
                             <div class="panel-body">
-                                <span style="margin-right: 10px">作者：{{ blog.author }}</span>
-                                <span>创建时间：{{ blog.create_time | date:"Y-m-d" }}</span>
-                                <p>分类：
-                                    <a href="{% url 'blog_type_selected' blog.blog_type.pk %}">
-                                        {{ blog.blog_type }}
-                                    </a>
-                                </p>
+                                <ul class="blog-info-decription">
+                                    <li>作者：{{ blog.author }}</li>
+                                    <li>分类：<a href="{% url 'blog_type_selected' blog.blog_type.pk %}">{{ blog.blog_type }}</a></li>
+                                    <li>创建时间：{{ blog.create_time | date:"Y-m-d" }}</li>
+                                    <li>阅读 ( {{blog.get_read_num}} )</li>
+                                </ul>
                                 <p>{{ blog.content | striptags | truncatechars:70 }}<span style="margin-left: 10px;"><a type="button" class="btn btn-success btn-xs" href="{% url 'blog_detail' blog.pk %}">阅读更多>></a></span></p>
                             </div>
                         </div>
@@ -37,24 +36,25 @@
             </div>
             <div class="col-md-2">
                 <h2>博客分类</h2>
-                <div class="well center-block">
-                   
+                
+                <ul class="list-group">
                     {% for blog_type in blog_types %}
-                        
-                        <p>
-                            <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_type_selected' blog_type.pk %}">{{ blog_type.type_name }} <span class="badge">{{ blog_type.blog_count }}</span></a>
-                        </p>
-                        
+                        <li class="list-group-item">
+                            <span class="badge">{{ blog_type.blog_count }}</span>
+                            <a href="{% url 'blog_type_selected' blog_type.pk %}"> {{ blog_type.type_name }} </a>
+                        </li>
                     {% endfor %}
-                </div>
+                </ul>  
                 
                 <h2>日期归档</h2>
-                <div class="well center-block">
+                <ul class="list-group">
                     {% for blog_date,blog_count in blogs_date.items %}
-                    <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_date_selected' blog_date.year blog_date.month %}">{{blog_date | date:"Y年m月"}} <span class="badge">{{blog_count}}</span></a>
+                    <li class="list-group-item">
+                        <span class="badge">{{blog_count}}</span>
+                        <a href="{% url 'blog_date_selected' blog_date.year blog_date.month %}">{{blog_date | date:"Y年m月"}}</a>
+                    </li>
                     {% endfor %}
-                    
-                </div>
+                </ul>
             </div>
         </div>
     </div>

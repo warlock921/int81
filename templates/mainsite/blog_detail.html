@@ -13,7 +13,7 @@
                 <li>作者：{{ blog_detail.author }}</li>
                 <li>分类：<a href="{% url 'blog_type_selected' blog_detail.blog_type.pk %}" class="alert-link">{{ blog_detail.blog_type }}</a></li>
                 <li>创建时间：{{ blog_detail.create_time | date:"Y-m-d H:m:s" }}</li>
-                <li>最后修改时间：{{ blog_detail.last_updated_time | date:"Y-m-d H:m:s" }}</li>
+                <li>阅读（{{blog_detail.get_read_num}}）</li>
             </ul>
         </div>
         <div class="blog-content"><p>{{ blog_detail.content | safe }}</p></div>

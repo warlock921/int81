@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10">
-                <h3>有关 <span class="label label-default">{{ blog_type }}</span> 的博客 <small><a href="{% url 'blog_list' %}"> 查看全部博客 </a>共{{ blog_all_list | length }}篇</small></h3>
+                <h3>有关 <strong>{{ blog_type }}</strong> 的博客 <small><a href="{% url 'blog_list' %}"> 查看全部博客 </a>共{{ blog_all_list | length }}篇</small></h3>
                 <div class="well well-sm">
                 {% for  blog_selected in page_num %}
                     <div class="panel panel-info">
@@ -17,13 +17,12 @@
                             <h3 class="panel-title"><a href="{% url 'blog_detail' blog_selected.pk %}">{{ blog_selected.title }}</a></h3>
                         </div>
                         <div class="panel-body">
-                            <span style="margin-right: 10px">作者：{{ blog_selected.author }}</span>
-                            <span>创建时间：{{ blog_selected.create_time | date:"Y-m-d" }}</span>
-                            <p>分类：
-                                <a href="{% url 'blog_type_selected' blog_selected.blog_type.pk %}">
-                                    {{ blog_selected.blog_type }}
-                                </a>
-                            </p>
+                            <ul class="blog-info-decription">
+                                <li>作者：{{ blog_selected.author }}</li>
+                                <li>分类：<a href="{% url 'blog_type_selected' blog_selected.blog_type.pk %}">{{ blog_selected.blog_type }}</a></li>
+                                <li>创建时间：{{ blog_selected.create_time | date:"Y-m-d" }}</li>
+                                <li>阅读 ( {{blog_selected.get_read_num}} )</li>
+                            </ul>
                             <p>{{ blog_selected.content | striptags | truncatechars:70 }}<span style="margin-left: 10px;"><a type="button" class="btn btn-success btn-xs" href="{% url 'blog_detail' blog_selected.pk %}">阅读更多>></a></span></p>
                         </div>
                     </div>
@@ -35,24 +34,23 @@
             </div>
             <div class="col-md-2">
                 <h2>博客分类</h2>
-                <div class="well center-block">
-                   
+                <ul class="list-group">
                     {% for blog_type in blog_types %}
-                        
-                        <p>
-                            <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_type_selected' blog_type.pk %}">{{ blog_type.type_name }} <span class="badge">{{ blog_type.blog_count }}</span></a>
-                        </p>
-                        
+                        <li class="list-group-item">
+                            <span class="badge">{{ blog_type.blog_count }}</span>
+                            <a href="{% url 'blog_type_selected' blog_type.pk %}"> {{ blog_type.type_name }} </a>
+                        </li>
                     {% endfor %}
-                </div>
-                
+                </ul>
                 <h2>日期归档</h2>
-                <div class="well center-block">
+                <ul class="list-group">
                     {% for blog_date,blog_count in blogs_date.items %}
-                    <a type="button" class="btn btn-primary btn-sm btn-block" href="{% url 'blog_date_selected' blog_date.year blog_date.month %}">{{blog_date | date:"Y年m月"}} <span class="badge">{{blog_count}}</span></a>
+                    <li class="list-group-item">
+                        <span class="badge">{{blog_count}}</span>
+                        <a href="{% url 'blog_date_selected' blog_date.year blog_date.month %}">{{blog_date | date:"Y年m月"}}</a>
+                    </li>
                     {% endfor %}
-                    
-                </div>
+                </ul>
             </div>
         </div>
     </div>
