@@ -18,6 +18,26 @@ body.base-body {
     /*border-bottom: 1px solid #eee;*/
 }
 
+h3.home-content {
+    font-size: 222%;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: "HYYaKuHeiW";
+}
+
+img.home-img {
+    margin-right: 0.5em;
+    max-width: 2em
+}
+
+div#container {
+    margin: 0 auto;
+    height: 20em;
+    min-width: 20em;
+    max-width: 30em;
+}
+
 div.blog-content-list {
     margin-bottom: 0em;
 }

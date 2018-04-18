@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load staticfiles %}
 {% block title %}
     INT81 | 首页
 {% endblock title %}
@@ -9,5 +9,47 @@
 {% endblock home-active %}
 
 {% block content %}
-    <h3>我们是全心全意的全干工程师</h3>
+    <h3 class="home-content"><img class='home-img' src="{% static 'image/logo3.png' %}">我们是全心全意的全干工程师</h3>
+    <div id="container"></div>
+    <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script>
+        // 图表配置
+        var options = {
+            chart: {
+                type: 'line',
+                backgroundColor: null,
+                borderWidth: 1,
+                borderColor: '#e1e1e1',
+            },
+            title: {text: null},
+            xAxis: { 
+                categories: {{ dates|safe }},
+                tickmarkPlacement: 'on',
+                title: { text: '前7日阅读计数'},
+             },
+
+            yAxis: {
+                title: { text: null },
+                labels: { enabled:false },
+                gridLineDashStyle: 'Dash',
+            },
+            series: [{                              // 数据列
+                name: '阅读量',                        // 数据列名
+                data: {{ read_nums }},                    // 数据
+                
+            }],
+            legend: {enabled:false},
+            credits: {enabled:false},
+            plotOptions: {
+                line: {
+                    dataLabels: {
+                        enabled: true
+                    }
+                }
+            },
+        };
+        // 图表初始化函数
+        var chart = Highcharts.chart('container', options);
+    </script>
+   
 {% endblock content %}
