@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'mainsite',
     'read_statistics',
+    'comment',
     
 ]
 
@@ -138,6 +139,14 @@ STATICFILES_FINDERS = (
 #Media文件夹配置
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,"media")
+
+#缓存系统--数据库缓存
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+        'LOCATION': 'my_cache_table',
+    }
+}
 
 #ckeditor上传文件配置
 CKEDITOR_UPLOAD_PATH = "uploads/"

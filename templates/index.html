@@ -10,7 +10,56 @@
 
 {% block content %}
     <h3 class="home-content"><img class='home-img' src="{% static 'image/logo3.png' %}">我们是全心全意的全干工程师</h3>
-    <div id="container"></div>
+    <!-- 获取图表DOM -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div id="container"></div>
+            </div>
+            <div class="col-md-2">
+                <h3>今日热门博客</h3>
+                <ul class="list-group">
+                {% for hot_data in today_hot_data %}
+                    <li class="list-group-item">
+                        <span class="badge">{{ hot_data.read_num_sum }}</span>
+                        <a href="{% url 'blog_detail' hot_data.id %}"> {{ hot_data.title | truncatechars:7 }} </a>
+                    </li>
+                {% empty %}
+                    今天没有热门博客
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>昨日热门博客</h3>
+                <ul class="list-group">
+                {% for hot_data in yesterday_hot_data %}
+                    <li class="list-group-item">
+                        <span class="badge">{{ hot_data.read_num_sum }}</span>
+                        <a href="{% url 'blog_detail' hot_data.id %}"> {{ hot_data.title | truncatechars:7 }} </a>
+                    </li>
+                {% empty %}
+                    昨天没有热门博客
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>本周热门博客</h3>
+                <ul class="list-group">
+                {% for hot_data in week_hot_data %}
+                    <li class="list-group-item">
+                        <span class="badge">{{ hot_data.read_num_sum }}</span>
+                        <a href="{% url 'blog_detail' hot_data.id %}"> {{ hot_data.title | truncatechars:7 }} </a>
+                    </li>
+                {% empty %}
+                    本周没有热门博客
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-2">
+                
+            </div>
+        </div>
+    </div>
     <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
     <script>
         // 图表配置

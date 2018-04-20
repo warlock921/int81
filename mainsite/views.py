@@ -1,4 +1,4 @@
-from django.shortcuts import render_to_response,get_object_or_404
+from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Count
 from .models import Blog,BlogType
@@ -95,7 +95,7 @@ def get_mainsite_common_parameters(request, need_blogs=Blog.objects.all()):
 #博客列表view方法
 def blog_list(request):
     context = get_mainsite_common_parameters(request)
-    return render_to_response('mainsite/blog_list.html', context)
+    return render(request, 'mainsite/blog_list.html', context)
 
 #博客文章内容显示view方法
 def blog_detail(request, blog_pk):
@@ -108,8 +108,7 @@ def blog_detail(request, blog_pk):
     next_blog = Blog.objects.filter(create_time__lt=current_blog.create_time).first()
     context['previous_blog'] = previous_blog
     context['next_blog'] = next_blog
-
-    response = render_to_response('mainsite/blog_detail.html', context)
+    response = render(request, 'mainsite/blog_detail.html', context)
     response.set_cookie(read_cookie_key, 'true')
     return response
 
@@ -122,7 +121,7 @@ def blog_type_selected(request, blog_type_pk):
     context = get_mainsite_common_parameters(request,blog_detail_selected)
     context['blog_type'] = blog_type
    
-    return render_to_response('mainsite/blog_type_selected.html', context)
+    return render(request, 'mainsite/blog_type_selected.html', context)
 
 #按博客发表年月分类显示view方法
 def blog_date_selected(request, year, month):
@@ -130,4 +129,4 @@ def blog_date_selected(request, year, month):
     blog_dates = Blog.objects.filter(create_time__year=year, create_time__month=month)
     context = get_mainsite_common_parameters(request,blog_dates)
    
-    return render_to_response('mainsite/blog_date_selected.html', context)
+    return render(request, 'mainsite/blog_date_selected.html', context)

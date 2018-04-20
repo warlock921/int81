@@ -10,6 +10,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.utils import timezone
 from django.db.models import Sum
 from .models import ReadNum,ReadDetail
+from mainsite.models import Blog
 
 def read_statistics_once_read(request, obj):
     ct = ContentType.objects.get_for_model(obj)
@@ -38,4 +39,32 @@ def get_seven_days_read_data(content_type):
         read_nums.append(result['read_num_sum'] or 0)
     return dates, read_nums
 
+def get_today_hot_data():
+    today = timezone.now().date()
+    blogs = Blog.objects.filter(read_details__detail_date=today) \
+                      .values('id', 'title') \
+                      .annotate(read_num_sum=Sum('read_details__read_num')) \
+                      .order_by('-read_num_sum')
+    # read_details = ReadDetail.objects.filter(content_type=content_type, detail_date=today).order_by('-read_num')
+    return blogs
+
+def get_yesterday_hot_data():
+    today = timezone.now().date()
+    yesterday = today - datetime.timedelta(days=1)
+    blogs = Blog.objects.filter(read_details__detail_date=yesterday) \
+                      .values('id', 'title') \
+                      .annotate(read_num_sum=Sum('read_details__read_num')) \
+                      .order_by('-read_num_sum')
+    # read_details = ReadDetail.objects.filter(content_type=content_type, detail_date=yesterday).order_by('-read_num')
+    return blogs
+
+def get_week_hot_data():
+    today = timezone.now().date()
+    day_nums = today.isoweekday()
+    monday = today - datetime.timedelta(days=day_nums)
+    blogs = Blog.objects.filter(read_details__detail_date__range=(monday,today)) \
+                      .values('id', 'title') \
+                      .annotate(read_num_sum=Sum('read_details__read_num')) \
+                      .order_by('-read_num_sum')
+    return blogs
     
