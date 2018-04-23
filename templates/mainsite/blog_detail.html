@@ -12,7 +12,7 @@
             <ul class="blog-info-decription">
                 <li>作者：{{ blog_detail.author }}</li>
                 <li>分类：<a href="{% url 'blog_type_selected' blog_detail.blog_type.pk %}" class="alert-link">{{ blog_detail.blog_type }}</a></li>
-                <li>创建时间：{{ blog_detail.create_time | date:"Y-m-d H:m:s" }}</li>
+                <li>创建时间：{{ blog_detail.create_time | date:"Y-m-d H:i:s" }}</li>
                 <li>阅读（{{blog_detail.get_read_num}}）</li>
             </ul>
         </div>
@@ -45,35 +45,27 @@
     <div class="col-xs-10 col-xs-offset-1">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title">评论</h3>
+            {% if user.is_authenticated %}
+                <h3 class="panel-title">说说你想说的</h3>
+            {% else %}
+                <h3 class="panel-title">登录之后才可以评论</h3>
+            {% endif %}
           </div>
           <div class="panel-body">
             {% if user.is_authenticated %}
-                <form action="" method="POST">
+                <form action="{% url 'update_comment' %}" method="POST">
                     {% csrf_token %}
                     <div class="form-group">
                         <label for="comment_text">{{ user.username }} 欢迎评论</label>
                         <textarea class="form-control" id="comment_text" name="comment_content" rows="4"></textarea>
                     </div>
                     <input type="hidden" name="object_id" value="{{ blog_detail.pk }}">
-                    <input type="hidden" name="content_type" value="{{ blog_detail }}">
+                    <input type="hidden" name="content_type" value="blog">
                     <input type="submit" class="btn btn-danger" value='提交评论' style="float: right;">
                 </form>
                 
             {% else %}
-
-                <form class="form-inline" action="{% url 'user_login' %}" method="POST">
-                    {% csrf_token %}
-                  <div class="form-group">
-                    <label class="sr-only" for="user_name">用户名：</label>
-                    <input type="text" class="form-control" id="user_name" name="username" placeholder="用户名">
-                  </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="user_pass">密码：</label>
-                    <input type="password" class="form-control" id="user_pass" name="password" placeholder="密码">
-                  </div>
-                  <input type="submit" class="btn btn-success" value="登录">
-                </form>
+                <a class="btn btn-primary" href="{% url 'user_login' %}?from={{ request.get_full_path }}">登录</a>
             {% endif %}
             
           </div>
@@ -81,10 +73,29 @@
 
         <div class="panel panel-success">
           <div class="panel-heading">
-            <h3 class="panel-title">评论展示区域</h3>
+            <h3 class="panel-title">评论</h3>
           </div>
           <div class="panel-body">
-            评论内容
+            {% for comment in comments %}
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                
+                <ul class="blog-info-decription">
+                    <li>用户：<strong>{{ comment.comment_user }}</strong></li>
+                    <li>评论时间：<strong>{{ comment.comment_time | date:"Y-m-d H:i:s"  }}</strong></li>
+                </ul>
+                
+              </div>
+              <div class="panel-body">
+                {{ comment.comment_content }}
+              </div>
+            </div>
+                
+                
+                
+            {% empty %}
+                还没有评论，抢个沙发吧！
+            {% endfor %}
           </div>
         </div>
     </div>

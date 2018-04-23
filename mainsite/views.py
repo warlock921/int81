@@ -1,7 +1,9 @@
 from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Count
-from .models import Blog,BlogType
+from django.contrib.contenttypes.models import ContentType
+from .models import Blog, BlogType
+from comment.models import Comment
 from read_statistics.utils import read_statistics_once_read
 
 # #统计各文章类型所含的文章数量方法------------此方法较为笨拙，仅供参考，已废弃
@@ -101,6 +103,8 @@ def blog_list(request):
 def blog_detail(request, blog_pk):
     current_blog = get_object_or_404(Blog,pk=blog_pk)
     read_cookie_key = read_statistics_once_read(request, current_blog)
+    blog_content_type = ContentType.objects.get_for_model(current_blog)
+    comments = Comment.objects.filter(content_type=blog_content_type, object_id=blog_pk)
     context = {}
     context['blog_detail'] = current_blog
     #查询前一条博客和后一条博客
@@ -108,6 +112,9 @@ def blog_detail(request, blog_pk):
     next_blog = Blog.objects.filter(create_time__lt=current_blog.create_time).first()
     context['previous_blog'] = previous_blog
     context['next_blog'] = next_blog
+
+    #返回评论内容
+    context['comments'] = comments
     response = render(request, 'mainsite/blog_detail.html', context)
     response.set_cookie(read_cookie_key, 'true')
     return response

@@ -47,9 +47,13 @@ div.blog-content-list {
     border-color: #e7e7e7;
 }
 
+ul li{
+    list-style-type: none;
+}
+
 ul.blog-info-decription {
     list-style-type: none;
-    /*margin-bottom: 2em;*/
+    margin-bottom: 0em;
 }
 ul.blog-info-decription li {
     display: inline-block;

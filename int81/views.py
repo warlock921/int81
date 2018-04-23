@@ -12,6 +12,7 @@ from django.core.cache import cache
 from django.urls import reverse
 from read_statistics.utils import get_seven_days_read_data, get_today_hot_data, get_yesterday_hot_data, get_week_hot_data
 from mainsite.models import Blog
+from .forms import LoginForm
 
 def index(request):
     blog_content_type = ContentType.objects.get_for_model(Blog)
@@ -55,12 +56,16 @@ def index(request):
     return render(request, 'index.html', context)
 
 def user_login(request):
-    username = request.POST.get('username', '')
-    password = request.POST.get('password', '')
-    user = authenticate(request, username=username, password=password)
-    referer = request.META.get('HTTP_REFERER', reverse('home'))
-    if user is not None:
-        login(request, user)
-        return redirect(referer)
+    if request.method == "POST":
+        login_form = LoginForm(request.POST)
+        if login_form.is_valid():
+            user = login_form.cleaned_data['user']
+            login(request, user)
+            return redirect(request.GET.get('from', reverse('home')))
     else:
-        return render(request, 'error.html', {'message':"出错啦！！！"})
+        login_form = LoginForm()
+    context = {}
+    context['login_form'] = login_form
+    return render(request, 'login.html', context)
+
+

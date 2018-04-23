@@ -11,4 +11,5 @@
 {% block content %}
     <h3 class="home-content"><img class='home-img' src="{% static 'image/logo3.png' %}">我们是全心全意的全干工程师</h3>
     <h1 class="home-content">{{ message }}</h1>
+    <a href="{% url 'home' %}">返回</a>
 {% endblock content %}
