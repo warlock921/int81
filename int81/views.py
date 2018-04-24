@@ -7,12 +7,13 @@
 
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User
 from django.contrib.contenttypes.models import ContentType
 from django.core.cache import cache
 from django.urls import reverse
 from read_statistics.utils import get_seven_days_read_data, get_today_hot_data, get_yesterday_hot_data, get_week_hot_data
 from mainsite.models import Blog
-from .forms import LoginForm
+from .forms import LoginForm, RegForm
 
 def index(request):
     blog_content_type = ContentType.objects.get_for_model(Blog)
@@ -67,5 +68,26 @@ def user_login(request):
     context = {}
     context['login_form'] = login_form
     return render(request, 'login.html', context)
+
+def user_register(request):
+    if request.method == "POST":
+        reg_form = RegForm(request.POST)
+        if reg_form.is_valid():
+            username = reg_form.cleaned_data['username']
+            email = reg_form.cleaned_data['email']
+            password = reg_form.cleaned_data['password_again']
+            user = User.objects.create_user(username, email, password)
+            user.save()
+
+            user = authenticate(username=username, password=password)
+            login(request,user)
+            return redirect(request.GET.get('from', reverse('home')))
+    else:
+        reg_form = RegForm()
+    context = {}
+    context['reg_form'] = reg_form
+    return render(request, 'register.html', context)
+
+
 
 
