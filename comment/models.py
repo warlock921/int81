@@ -14,3 +14,6 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.comment_user
+
+    class Meta:
+        ordering = ['-comment_time']

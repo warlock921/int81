@@ -5,6 +5,7 @@ from django.contrib.contenttypes.models import ContentType
 from .models import Blog, BlogType
 from comment.models import Comment
 from read_statistics.utils import read_statistics_once_read
+from comment.forms import CommentForm
 
 # #统计各文章类型所含的文章数量方法------------此方法较为笨拙，仅供参考，已废弃
 # def blog_article_count():
@@ -115,6 +116,7 @@ def blog_detail(request, blog_pk):
 
     #返回评论内容
     context['comments'] = comments
+    context['comment_form'] = CommentForm(initial={'content_type':blog_content_type.model, 'object_id':blog_pk})
     response = render(request, 'mainsite/blog_detail.html', context)
     response.set_cookie(read_cookie_key, 'true')
     return response

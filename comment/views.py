@@ -27,7 +27,4 @@ def update_comment(request):
         #获取当前页面信息，如果获取不到，就跳转主页
         referer = request.META.get('HTTP_REFERER', reverse('home'))
         return redirect(referer)
-
-
-
-
+        
