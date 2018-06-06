@@ -1,0 +1,214 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Wed Jun  6 20:10:12 2018] ***
+compiled with version: 5.4.0 20160609 on 05 June 2018 13:04:00
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: warlock921
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/wwwroot/int81
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/wwwroot/int81
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :9001 fd 3
+spawned uWSGI http 1 (pid: 10914)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1cebdb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1cebdb0 pid: 10913 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 10913, cores: 2)
+spawned uWSGI worker 2 (pid: 10916, cores: 2)
+spawned uWSGI worker 3 (pid: 10917, cores: 2)
+spawned uWSGI worker 4 (pid: 10918, cores: 2)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 10916|app: 0|req: 1/1] 106.58.26.9 () {36 vars in 629 bytes} [Wed Jun  6 20:13:19 2018] GET / => generated 4576 bytes in 133 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /static/css/bootstrap-3.3.7/css/bootstrap.min.css
+[pid: 10916|app: 0|req: 2/2] 106.58.26.9 () {36 vars in 665 bytes} [Wed Jun  6 20:13:19 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 2903 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/css/bootstrap-3.3.7/js/bootstrap.min.js
+[pid: 10916|app: 0|req: 3/3] 106.58.26.9 () {36 vars in 646 bytes} [Wed Jun  6 20:13:20 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 2897 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/js/jquery-1.12.4.min.js
+[pid: 10918|app: 0|req: 2/4] 106.58.26.9 () {36 vars in 614 bytes} [Wed Jun  6 20:13:20 2018] GET /static/js/jquery-1.12.4.min.js => generated 2849 bytes in 49 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/css/default.css
+[pid: 10918|app: 0|req: 2/5] 106.58.26.9 () {36 vars in 613 bytes} [Wed Jun  6 20:13:19 2018] GET /static/css/default.css => generated 2825 bytes in 55 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/image/logo3.png
+[pid: 10913|app: 0|req: 1/6] 106.58.26.9 () {36 vars in 634 bytes} [Wed Jun  6 20:13:20 2018] GET /static/image/logo3.png => generated 2825 bytes in 44 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/js/jquery-1.12.4.min.js
+[pid: 10916|app: 0|req: 4/7] 106.58.26.9 () {36 vars in 614 bytes} [Wed Jun  6 20:13:20 2018] GET /static/js/jquery-1.12.4.min.js => generated 2849 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/css/bootstrap-3.3.7/js/bootstrap.min.js
+[pid: 10918|app: 0|req: 3/8] 106.58.26.9 () {36 vars in 647 bytes} [Wed Jun  6 20:13:20 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 2897 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/image/favicon.ico
+[pid: 10916|app: 0|req: 5/9] 106.58.26.9 () {36 vars in 639 bytes} [Wed Jun  6 20:13:20 2018] GET /static/image/favicon.ico => generated 2831 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10917|app: 0|req: 1/10] 106.58.26.9 () {38 vars in 684 bytes} [Wed Jun  6 20:13:33 2018] GET /blog/1 => generated 9566 bytes in 137 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+Not Found: /static/css/default.css
+[pid: 10916|app: 0|req: 6/11] 106.58.26.9 () {38 vars in 651 bytes} [Wed Jun  6 20:13:33 2018] GET /static/css/default.css => generated 2825 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/css/bootstrap-3.3.7/css/bootstrap.min.css
+Not Found: /static/js/jquery-1.12.4.min.js
+[pid: 10913|app: 0|req: 2/12] 106.58.26.9 () {38 vars in 703 bytes} [Wed Jun  6 20:13:33 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 2903 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 10917|app: 0|req: 2/13] 106.58.26.9 () {38 vars in 652 bytes} [Wed Jun  6 20:13:33 2018] GET /static/js/jquery-1.12.4.min.js => generated 2849 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/css/bootstrap-3.3.7/js/bootstrap.min.js
+[pid: 10916|app: 0|req: 7/14] 106.58.26.9 () {38 vars in 684 bytes} [Wed Jun  6 20:13:33 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 2897 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/css/bootstrap-3.3.7/css/bootstrap.min.css
+[pid: 10917|app: 0|req: 3/15] 106.58.26.9 () {38 vars in 697 bytes} [Wed Jun  6 20:13:35 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 2903 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[pid: 10916|app: 0|req: 8/16] 80.82.78.50 () {28 vars in 412 bytes} [Wed Jun  6 21:11:39 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 63192 bytes in 81 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[uwsgi-http key: www.baidu.com client_addr: 80.82.78.50 client_port: 42371] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 10917|app: 0|req: 4/17] 106.58.26.9 () {38 vars in 661 bytes} [Wed Jun  6 21:13:17 2018] GET / => generated 4576 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Not Found: /static/image/logo3.png
+Not Found: /static/js/jquery-1.12.4.min.js
+Not Found: /static/css/default.css
+Not Found: /static/css/bootstrap-3.3.7/js/bootstrap.min.js
+Not Found: /static/css/bootstrap-3.3.7/css/bootstrap.min.css
+[pid: 10918|app: 0|req: 5/18] 106.58.26.9 () {38 vars in 697 bytes} [Wed Jun  6 21:13:17 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 2903 bytes in 15 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10917|app: 0|req: 5/19] 106.58.26.9 () {38 vars in 666 bytes} [Wed Jun  6 21:13:17 2018] GET /static/image/logo3.png => generated 2825 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10913|app: 0|req: 3/20] 106.58.26.9 () {38 vars in 646 bytes} [Wed Jun  6 21:13:17 2018] GET /static/js/jquery-1.12.4.min.js => generated 2849 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10916|app: 0|req: 9/22] 106.58.26.9 () {38 vars in 645 bytes} [Wed Jun  6 21:13:17 2018] GET /static/css/default.css => generated 2825 bytes in 23 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10918|app: 0|req: 5/22] 106.58.26.9 () {38 vars in 678 bytes} [Wed Jun  6 21:13:17 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 2897 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/js/jquery-1.12.4.min.js
+[pid: 10916|app: 0|req: 10/23] 106.58.26.9 () {38 vars in 646 bytes} [Wed Jun  6 21:13:17 2018] GET /static/js/jquery-1.12.4.min.js => generated 2849 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/css/bootstrap-3.3.7/js/bootstrap.min.js
+[pid: 10913|app: 0|req: 4/24] 106.58.26.9 () {38 vars in 678 bytes} [Wed Jun  6 21:13:18 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 2897 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 10917|app: 0|req: 6/25] 106.58.26.9 () {40 vars in 713 bytes} [Wed Jun  6 21:13:20 2018] GET /blog/ => generated 5146 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Not Found: /static/css/bootstrap-3.3.7/css/bootstrap.min.css
+Not Found: /static/css/bootstrap-3.3.7/js/bootstrap.min.js
+Not Found: /static/css/default.css
+[pid: 10913|app: 0|req: 6/26] 106.58.26.9 () {38 vars in 650 bytes} [Wed Jun  6 21:13:20 2018] GET /static/css/default.css => generated 2825 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10916|app: 0|req: 12/27] 106.58.26.9 () {38 vars in 702 bytes} [Wed Jun  6 21:13:20 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 2903 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/js/jquery-1.12.4.min.js
+[pid: 10916|app: 0|req: 12/29] 106.58.26.9 () {38 vars in 683 bytes} [Wed Jun  6 21:13:20 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 2897 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 10913|app: 0|req: 6/29] 106.58.26.9 () {38 vars in 651 bytes} [Wed Jun  6 21:13:20 2018] GET /static/js/jquery-1.12.4.min.js => generated 2849 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 10917|app: 0|req: 7/30] 106.58.26.9 () {40 vars in 720 bytes} [Wed Jun  6 21:13:22 2018] GET /blog/1 => generated 9566 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+Not Found: /static/css/bootstrap-3.3.7/css/bootstrap.min.css
+[pid: 10917|app: 0|req: 8/31] 106.58.26.9 () {38 vars in 703 bytes} [Wed Jun  6 21:13:22 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 2903 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/js/jquery-1.12.4.min.js
+Not Found: /static/css/default.css
+[pid: 10913|app: 0|req: 7/32] 106.58.26.9 () {38 vars in 651 bytes} [Wed Jun  6 21:13:22 2018] GET /static/css/default.css => generated 2825 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 10916|app: 0|req: 13/33] 106.58.26.9 () {38 vars in 652 bytes} [Wed Jun  6 21:13:22 2018] GET /static/js/jquery-1.12.4.min.js => generated 2849 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/css/bootstrap-3.3.7/js/bootstrap.min.js
+[pid: 10916|app: 0|req: 14/34] 106.58.26.9 () {38 vars in 684 bytes} [Wed Jun  6 21:13:22 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 2897 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Gracefully killing worker 1 (pid: 10913)...
+*** Starting uWSGI 2.0.17 (64bit) on [Wed Jun  6 21:27:24 2018] ***
+compiled with version: 5.4.0 20160609 on 05 June 2018 13:04:00
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: warlock921
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/wwwroot/int81
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/wwwroot/int81
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :9001 fd 3
+spawned uWSGI http 1 (pid: 939)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x226dda0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x226dda0 pid: 938 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 938, cores: 2)
+spawned uWSGI worker 2 (pid: 941, cores: 2)
+spawned uWSGI worker 3 (pid: 942, cores: 2)
+spawned uWSGI worker 4 (pid: 943, cores: 2)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 938|app: 0|req: 1/1] 106.58.26.9 () {38 vars in 661 bytes} [Wed Jun  6 21:27:51 2018] GET / => generated 4719 bytes in 234 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 2/2] 106.58.26.9 () {38 vars in 678 bytes} [Wed Jun  6 21:27:51 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 120 bytes in 80 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 2/3] 106.58.26.9 () {38 vars in 645 bytes} [Wed Jun  6 21:27:51 2018] GET /static/css/default.css => generated 96 bytes in 91 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 2/4] 106.58.26.9 () {38 vars in 697 bytes} [Wed Jun  6 21:27:51 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 122 bytes in 95 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 2/5] 106.58.26.9 () {38 vars in 646 bytes} [Wed Jun  6 21:27:51 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 91 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 943|app: 0|req: 1/6] 106.58.26.9 () {38 vars in 666 bytes} [Wed Jun  6 21:27:51 2018] GET /static/image/logo3.png => generated 96 bytes in 75 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 3/7] 106.58.26.9 () {38 vars in 646 bytes} [Wed Jun  6 21:27:51 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 938|app: 0|req: 2/8] 106.58.26.9 () {38 vars in 678 bytes} [Wed Jun  6 21:27:51 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 120 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 3/9] 106.58.26.9 () {40 vars in 715 bytes} [Wed Jun  6 21:29:45 2018] GET /blog/1 => generated 9566 bytes in 181 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 1)
+[pid: 943|app: 0|req: 2/10] 106.58.26.9 () {38 vars in 703 bytes} [Wed Jun  6 21:29:46 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 122 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 938|app: 0|req: 3/11] 106.58.26.9 () {38 vars in 651 bytes} [Wed Jun  6 21:29:46 2018] GET /static/css/default.css => generated 96 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 4/12] 106.58.26.9 () {38 vars in 652 bytes} [Wed Jun  6 21:29:46 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 938|app: 0|req: 4/13] 106.58.26.9 () {38 vars in 684 bytes} [Wed Jun  6 21:29:46 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 120 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 4/14] 106.58.26.9 () {40 vars in 713 bytes} [Wed Jun  6 21:29:58 2018] GET /blog/ => generated 5146 bytes in 88 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 5/15] 106.58.26.9 () {38 vars in 702 bytes} [Wed Jun  6 21:29:58 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 122 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 943|app: 0|req: 3/16] 106.58.26.9 () {38 vars in 650 bytes} [Wed Jun  6 21:29:58 2018] GET /static/css/default.css => generated 96 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 5/17] 106.58.26.9 () {38 vars in 651 bytes} [Wed Jun  6 21:29:58 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 938|app: 0|req: 5/18] 106.58.26.9 () {38 vars in 683 bytes} [Wed Jun  6 21:29:58 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 120 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 6/19] 106.58.26.9 () {38 vars in 671 bytes} [Wed Jun  6 21:30:05 2018] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 943|app: 0|req: 4/20] 106.58.26.9 () {38 vars in 673 bytes} [Wed Jun  6 21:30:05 2018] GET /admin/ => generated 0 bytes in 50 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 6/21] 106.58.26.9 () {38 vars in 710 bytes} [Wed Jun  6 21:30:06 2018] GET /admin/login/?next=/admin/ => generated 1857 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 943|app: 0|req: 5/22] 106.58.26.9 () {38 vars in 754 bytes} [Wed Jun  6 21:30:06 2018] GET /static/admin/css/login.css => generated 100 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 7/23] 106.58.26.9 () {38 vars in 752 bytes} [Wed Jun  6 21:30:06 2018] GET /static/admin/css/base.css => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 938|app: 0|req: 6/24] 106.58.26.9 () {38 vars in 764 bytes} [Wed Jun  6 21:30:06 2018] GET /static/admin/css/responsive.css => generated 105 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 938|app: 0|req: 7/25] 106.58.26.9 () {38 vars in 745 bytes} [Wed Jun  6 21:30:06 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 8/26] 106.58.26.9 () {48 vars in 995 bytes} [Wed Jun  6 21:30:12 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 133 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 9/27] 106.58.26.9 () {42 vars in 891 bytes} [Wed Jun  6 21:30:12 2018] GET /admin/ => generated 7109 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 10/28] 106.58.26.9 () {38 vars in 787 bytes} [Wed Jun  6 21:30:13 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 943|app: 0|req: 6/29] 106.58.26.9 () {38 vars in 777 bytes} [Wed Jun  6 21:30:12 2018] GET /static/admin/css/base.css => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 938|app: 0|req: 8/30] 106.58.26.9 () {38 vars in 789 bytes} [Wed Jun  6 21:30:13 2018] GET /static/admin/css/responsive.css => generated 105 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 943|app: 0|req: 7/31] 106.58.26.9 () {38 vars in 830 bytes} [Wed Jun  6 21:30:15 2018] GET /admin/login/?next=/admin/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 7 headers in 246 bytes (1 switches on core 0)
+[pid: 943|app: 0|req: 8/32] 106.58.26.9 () {38 vars in 793 bytes} [Wed Jun  6 21:30:15 2018] GET /admin/ => generated 7109 bytes in 49 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 7/33] 106.58.26.9 () {44 vars in 863 bytes} [Wed Jun  6 22:35:49 2018] GET / => generated 4719 bytes in 41 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 8/34] 106.58.26.9 () {44 vars in 879 bytes} [Wed Jun  6 22:35:58 2018] GET /blog/ => generated 5146 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 9/35] 106.58.26.9 () {44 vars in 874 bytes} [Wed Jun  6 22:36:10 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 10/36] 106.58.26.9 () {44 vars in 879 bytes} [Wed Jun  6 22:36:18 2018] GET /blog/ => generated 5146 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 11/37] 106.58.26.9 () {44 vars in 874 bytes} [Wed Jun  6 22:36:19 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 12/38] 13.57.220.0 () {34 vars in 487 bytes} [Wed Jun  6 22:44:41 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 13/39] 106.58.26.9 () {44 vars in 879 bytes} [Wed Jun  6 22:49:32 2018] GET /blog/ => generated 5146 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 14/40] 106.58.26.9 () {44 vars in 874 bytes} [Wed Jun  6 22:49:36 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 15/41] 5.178.86.75 () {40 vars in 702 bytes} [Wed Jun  6 22:51:46 2018] POST /azenv.php?auth=152829670677&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 63 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)

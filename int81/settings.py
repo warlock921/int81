@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@o(*2q%#)dulz^_mnc%$3k23k!(t(5up6jp#=5xw-_^p+x(8v='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["localhost","127.0.0.1","192.168.20.24","0.0.0.0","10.0.0.16"]
+ALLOWED_HOSTS = ["localhost","127.0.0.1","0.0.0.0","www.int81.com","int81.com"]
 
 
 # Application definition
@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'int81',
         'USER': 'root',
-        'PASSWORD': 'P@ssword',
+        'PASSWORD': 'ltjg810921',
         "HOST": "localhost",
     }
 }
@@ -131,6 +131,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,"static"),
 ]
+STATIC_ROOT = os.path.join(BASE_DIR,"static/")
+
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',  
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',  
