@@ -36,7 +36,9 @@
     <div class="blog-content-list">
     {% block content %}{% endblock content %}
     </div>
-</div>
+
+    {% block footer %} {% endblock footer %}
+
 {# 导入JS文件 #}
 <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'css/bootstrap-3.3.7/js/bootstrap.min.js' %}"></script>
