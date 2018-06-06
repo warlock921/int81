@@ -1,4 +1,6 @@
-comment/__pycache__/forms.cpython-35.pyc
-comment/__pycache__/models.cpython-35.pyc
-comment/__pycache__/views.cpython-35.pyc
-mainsite/__pycache__/views.cpython-35.pyc
+comment/__pycache__/
+mainsite/__pycache__/
+comment/migrations/
+mainsite/migrations/
+read_statistics/__pycache__/
+read_statistics/migrations/
