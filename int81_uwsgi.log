@@ -1220,3 +1220,4 @@ spawned uWSGI worker 4 (pid: 2146, cores: 2)
 读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
 [pid: 2145|app: 0|req: 45/456] 78.189.86.4 () {26 vars in 275 bytes} [Sun Jun 10 22:19:08 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
 [pid: 2144|app: 0|req: 349/457] 106.58.26.243 () {46 vars in 919 bytes} [Sun Jun 10 22:19:50 2018] GET /blog/3 => generated 5974 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 350/458] 106.58.26.243 () {46 vars in 919 bytes} [Sun Jun 10 22:41:29 2018] GET /blog/3 => generated 5974 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 0)

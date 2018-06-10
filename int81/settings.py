@@ -153,6 +153,8 @@ CACHES = {
 
 #ckeditor上传文件配置
 CKEDITOR_UPLOAD_PATH = "uploads/"
+
+CKEDITOR_IMAGE_BACKEND = 'pillow'
 #ckeditor编辑器样式配置
 CKEDITOR_CONFIGS = {
     'default': {
