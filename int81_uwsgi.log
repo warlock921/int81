@@ -212,3 +212,1012 @@ spawned uWSGI worker 4 (pid: 943, cores: 2)
 读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
 [pid: 941|app: 0|req: 14/40] 106.58.26.9 () {44 vars in 874 bytes} [Wed Jun  6 22:49:36 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
 [pid: 941|app: 0|req: 15/41] 5.178.86.75 () {40 vars in 702 bytes} [Wed Jun  6 22:51:46 2018] POST /azenv.php?auth=152829670677&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 63 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 16/42] 106.58.26.9 () {44 vars in 879 bytes} [Wed Jun  6 23:07:21 2018] GET /blog/ => generated 5146 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 17/43] 106.58.26.9 () {44 vars in 886 bytes} [Wed Jun  6 23:07:25 2018] GET /blog/1 => generated 10388 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 18/44] 106.58.26.9 () {44 vars in 875 bytes} [Wed Jun  6 23:07:40 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 19/45] 196.52.43.97 () {30 vars in 371 bytes} [Wed Jun  6 23:12:36 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 20/46] 23.247.64.90 () {32 vars in 491 bytes} [Wed Jun  6 23:14:54 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 21/47] 106.58.26.9 () {44 vars in 879 bytes} [Wed Jun  6 23:24:32 2018] GET /blog/ => generated 5146 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 22/48] 106.58.26.9 () {42 vars in 842 bytes} [Wed Jun  6 23:24:40 2018] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 1)
+[pid: 943|app: 0|req: 9/49] 106.58.26.9 () {42 vars in 844 bytes} [Wed Jun  6 23:24:40 2018] GET /admin/ => generated 7109 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 23/50] 106.58.26.9 () {44 vars in 915 bytes} [Wed Jun  6 23:24:44 2018] GET /admin/mainsite/blog/ => generated 5943 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 943|app: 0|req: 10/51] 106.58.26.9 () {42 vars in 798 bytes} [Wed Jun  6 23:24:44 2018] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 24/52] 106.58.26.9 () {44 vars in 947 bytes} [Wed Jun  6 23:24:50 2018] GET /admin/mainsite/blog/1/change/ => generated 19650 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 25/53] 106.58.26.9 () {42 vars in 807 bytes} [Wed Jun  6 23:24:50 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 11/54] 106.58.26.9 () {52 vars in 1213 bytes} [Wed Jun  6 23:26:09 2018] POST /admin/mainsite/blog/1/change/ => generated 0 bytes in 24 msecs (HTTP/1.1 302) 8 headers in 664 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 12/55] 106.58.26.9 () {46 vars in 1342 bytes} [Wed Jun  6 23:26:09 2018] GET /admin/mainsite/blog/ => generated 6211 bytes in 37 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 26/56] 106.58.26.9 () {42 vars in 798 bytes} [Wed Jun  6 23:26:09 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 27/57] 106.58.26.9 () {44 vars in 889 bytes} [Wed Jun  6 23:26:15 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 13/58] 106.58.26.9 () {44 vars in 881 bytes} [Wed Jun  6 23:26:17 2018] GET /blog/1 => generated 16661 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 14/59] 106.58.26.9 () {46 vars in 912 bytes} [Wed Jun  6 23:26:20 2018] GET /blog/1 => generated 16661 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 28/60] 106.58.26.9 () {44 vars in 875 bytes} [Wed Jun  6 23:26:21 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 29/61] 106.58.26.9 () {44 vars in 881 bytes} [Wed Jun  6 23:26:25 2018] GET /blog/1 => generated 16661 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 30/62] 106.58.26.9 () {44 vars in 925 bytes} [Wed Jun  6 23:26:53 2018] GET /blog/blog-type-selected/1 => generated 4994 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 31/63] 106.58.26.9 () {44 vars in 906 bytes} [Wed Jun  6 23:26:58 2018] GET /blog/1 => generated 16661 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 32/64] 106.58.26.9 () {44 vars in 938 bytes} [Wed Jun  6 23:27:15 2018] GET /admin/mainsite/blog/ => generated 5963 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 33/65] 106.58.26.9 () {44 vars in 947 bytes} [Wed Jun  6 23:27:18 2018] GET /admin/mainsite/blog/1/change/ => generated 25593 bytes in 28 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 34/66] 106.58.26.9 () {42 vars in 807 bytes} [Wed Jun  6 23:27:18 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 15/67] 106.58.26.9 () {52 vars in 1211 bytes} [Wed Jun  6 23:31:44 2018] POST /admin/mainsite/blog/1/change/ => generated 0 bytes in 22 msecs (HTTP/1.1 302) 8 headers in 571 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 35/68] 106.58.26.9 () {46 vars in 1249 bytes} [Wed Jun  6 23:31:44 2018] GET /admin/mainsite/blog/ => generated 6129 bytes in 34 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 16/69] 106.58.26.9 () {42 vars in 798 bytes} [Wed Jun  6 23:31:44 2018] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 36/70] 106.58.26.9 () {44 vars in 889 bytes} [Wed Jun  6 23:31:49 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 37/71] 106.58.26.9 () {44 vars in 881 bytes} [Wed Jun  6 23:31:51 2018] GET /blog/1 => generated 5189 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 38/72] 106.58.26.9 () {44 vars in 875 bytes} [Wed Jun  6 23:32:05 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 39/73] 106.58.26.9 () {44 vars in 881 bytes} [Wed Jun  6 23:32:40 2018] GET /blog/1 => generated 5189 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 40/74] 106.58.26.9 () {42 vars in 844 bytes} [Wed Jun  6 23:33:51 2018] GET /admin/ => generated 7808 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 41/75] 106.58.26.9 () {44 vars in 915 bytes} [Wed Jun  6 23:33:54 2018] GET /admin/mainsite/blog/ => generated 5922 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 42/76] 106.58.26.9 () {42 vars in 798 bytes} [Wed Jun  6 23:33:54 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 17/77] 106.58.26.9 () {44 vars in 947 bytes} [Wed Jun  6 23:33:57 2018] GET /admin/mainsite/blog/1/change/ => generated 12503 bytes in 41 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 43/78] 106.58.26.9 () {42 vars in 807 bytes} [Wed Jun  6 23:33:57 2018] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 18/79] 106.58.26.9 () {52 vars in 1211 bytes} [Wed Jun  6 23:35:01 2018] POST /admin/mainsite/blog/1/change/ => generated 0 bytes in 17 msecs (HTTP/1.1 302) 8 headers in 571 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 44/80] 106.58.26.9 () {46 vars in 1249 bytes} [Wed Jun  6 23:35:01 2018] GET /admin/mainsite/blog/ => generated 6129 bytes in 19 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 45/81] 106.58.26.9 () {42 vars in 798 bytes} [Wed Jun  6 23:35:02 2018] GET /admin/jsi18n/ => generated 7684 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 942|app: 0|req: 19/82] 106.58.26.9 () {44 vars in 889 bytes} [Wed Jun  6 23:35:06 2018] GET / => generated 4719 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 20/83] 106.58.26.9 () {44 vars in 881 bytes} [Wed Jun  6 23:35:08 2018] GET /blog/1 => generated 5185 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 46/84] 106.58.26.9 () {44 vars in 875 bytes} [Wed Jun  6 23:35:32 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 47/85] 106.58.26.9 () {44 vars in 881 bytes} [Wed Jun  6 23:39:35 2018] GET /blog/1 => generated 5185 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 48/86] 106.14.204.78 () {30 vars in 454 bytes} [Wed Jun  6 23:42:16 2018] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 21/87] 106.14.204.78 () {30 vars in 491 bytes} [Wed Jun  6 23:42:16 2018] GET /admin/login/?next=/admin/ => generated 1857 bytes in 9 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 942|app: 0|req: 22/88] 106.58.26.9 () {44 vars in 875 bytes} [Wed Jun  6 23:49:32 2018] GET / => generated 4707 bytes in 34 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 49/89] 106.58.26.9 () {44 vars in 869 bytes} [Wed Jun  6 23:49:33 2018] GET / => generated 4707 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 50/90] 106.58.26.9 () {44 vars in 881 bytes} [Wed Jun  6 23:49:38 2018] GET /blog/1 => generated 5185 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 51/91] 106.58.26.9 () {42 vars in 844 bytes} [Wed Jun  6 23:50:01 2018] GET /admin/ => generated 8137 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 52/92] 106.58.26.9 () {44 vars in 915 bytes} [Wed Jun  6 23:50:03 2018] GET /admin/mainsite/blog/ => generated 5922 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 53/93] 106.58.26.9 () {42 vars in 798 bytes} [Wed Jun  6 23:50:04 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 942|app: 0|req: 23/94] 106.58.26.9 () {44 vars in 947 bytes} [Wed Jun  6 23:50:05 2018] GET /admin/mainsite/blog/1/change/ => generated 12515 bytes in 28 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 54/95] 106.58.26.9 () {42 vars in 807 bytes} [Wed Jun  6 23:50:05 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 24/96] 106.58.26.9 () {52 vars in 1211 bytes} [Wed Jun  6 23:50:27 2018] POST /admin/mainsite/blog/1/change/ => generated 0 bytes in 21 msecs (HTTP/1.1 302) 8 headers in 571 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 55/97] 106.58.26.9 () {46 vars in 1249 bytes} [Wed Jun  6 23:50:27 2018] GET /admin/mainsite/blog/ => generated 6129 bytes in 22 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 56/98] 106.58.26.9 () {42 vars in 798 bytes} [Wed Jun  6 23:50:27 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 942|app: 0|req: 25/99] 81.171.85.171 () {36 vars in 479 bytes} [Wed Jun  6 23:54:13 2018] GET /manage/content/update.php => generated 26 bytes in 16 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 942|app: 0|req: 26/100] 106.58.26.9 () {40 vars in 677 bytes} [Wed Jun  6 23:54:48 2018] GET / => generated 4707 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 57/101] 106.58.26.9 () {42 vars in 720 bytes} [Wed Jun  6 23:54:57 2018] GET /blog/ => generated 5159 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 58/102] 106.58.26.9 () {42 vars in 715 bytes} [Wed Jun  6 23:56:35 2018] GET / => generated 4707 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 59/103] 119.23.174.205 () {26 vars in 278 bytes} [Thu Jun  7 00:37:21 2018] GET / => generated 4707 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 60/104] 106.58.26.9 () {44 vars in 746 bytes} [Thu Jun  7 00:38:28 2018] GET / => generated 4707 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 61/105] 106.58.26.9 () {42 vars in 722 bytes} [Thu Jun  7 00:38:33 2018] GET /blog/1 => generated 4357 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 62/106] 106.58.26.9 () {44 vars in 747 bytes} [Thu Jun  7 00:38:35 2018] GET / => generated 4707 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 941|app: 0|req: 63/107] 106.58.26.9 () {44 vars in 751 bytes} [Thu Jun  7 00:38:38 2018] GET /blog/ => generated 5159 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 64/108] 106.58.26.9 () {44 vars in 746 bytes} [Thu Jun  7 00:38:40 2018] GET / => generated 4707 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 941|app: 0|req: 65/109] 196.52.43.125 () {28 vars in 299 bytes} [Thu Jun  7 00:39:00 2018] GET / => generated 4707 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu Jun  7 00:41:40 2018] ***
+compiled with version: 5.4.0 20160609 on 05 June 2018 13:04:00
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: warlock921
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/wwwroot/int81
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/wwwroot/int81
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :9001 fd 3
+spawned uWSGI http 1 (pid: 1328)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x242fda0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x242fda0 pid: 1327 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1327, cores: 2)
+spawned uWSGI worker 2 (pid: 1330, cores: 2)
+spawned uWSGI worker 3 (pid: 1331, cores: 2)
+spawned uWSGI worker 4 (pid: 1332, cores: 2)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 1/1] 106.58.26.9 () {46 vars in 777 bytes} [Thu Jun  7 00:42:02 2018] GET / => generated 4858 bytes in 90 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 2/2] 106.58.26.9 () {48 vars in 799 bytes} [Thu Jun  7 00:43:00 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 3/3] 106.58.26.9 () {44 vars in 753 bytes} [Thu Jun  7 00:43:10 2018] GET /blog/1 => generated 4358 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 4/4] 106.58.26.9 () {44 vars in 747 bytes} [Thu Jun  7 00:43:13 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 5/5] 106.58.26.9 () {44 vars in 751 bytes} [Thu Jun  7 00:43:20 2018] GET /blog/ => generated 5160 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 6/6] 106.58.26.9 () {44 vars in 806 bytes} [Thu Jun  7 00:43:22 2018] GET /blog/blog-date-selected/2018/6 => generated 5218 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 7/7] 106.58.26.9 () {44 vars in 821 bytes} [Thu Jun  7 00:43:24 2018] GET /blog/blog-type-selected/1 => generated 4994 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 8/8] 106.58.26.9 () {44 vars in 766 bytes} [Thu Jun  7 00:43:26 2018] GET / => generated 4858 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 9/9] 106.58.26.9 () {44 vars in 741 bytes} [Thu Jun  7 00:44:27 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 10/10] 106.58.26.9 () {44 vars in 751 bytes} [Thu Jun  7 00:44:29 2018] GET /blog/ => generated 5160 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 11/11] 106.58.26.9 () {44 vars in 746 bytes} [Thu Jun  7 00:44:33 2018] GET / => generated 4858 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 12/12] 106.58.26.9 () {42 vars in 832 bytes} [Thu Jun  7 00:45:54 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 13/13] 106.58.26.9 () {46 vars in 885 bytes} [Thu Jun  7 00:45:57 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 14/14] 106.58.26.9 () {44 vars in 881 bytes} [Thu Jun  7 00:46:20 2018] GET /blog/1 => generated 5180 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 15/15] 106.58.26.9 () {52 vars in 1104 bytes} [Thu Jun  7 00:47:02 2018] POST /comment/update-comment/ => generated 0 bytes in 11 msecs (HTTP/1.1 302) 5 headers in 163 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 16/16] 106.58.26.9 () {46 vars in 918 bytes} [Thu Jun  7 00:47:02 2018] GET /blog/1 => generated 5803 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 17/17] 106.58.26.9 () {44 vars in 875 bytes} [Thu Jun  7 00:47:07 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 18/18] 106.58.26.9 () {44 vars in 879 bytes} [Thu Jun  7 00:51:38 2018] GET /blog/ => generated 5160 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 19/19] 106.58.26.9 () {40 vars in 659 bytes} [Thu Jun  7 00:55:09 2018] GET / => generated 4858 bytes in 42 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 20/20] 106.58.26.9 () {42 vars in 702 bytes} [Thu Jun  7 00:55:30 2018] GET /blog/ => generated 5160 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 21/21] 106.58.26.9 () {42 vars in 704 bytes} [Thu Jun  7 00:55:57 2018] GET /blog/1 => generated 4981 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 22/22] 106.58.26.9 () {44 vars in 735 bytes} [Thu Jun  7 00:56:15 2018] GET /blog/1 => generated 4981 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 23/23] 80.82.70.187 () {32 vars in 429 bytes} [Thu Jun  7 01:15:11 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 16 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 24/24] 47.96.254.10 () {26 vars in 276 bytes} [Thu Jun  7 02:04:21 2018] GET / => generated 4858 bytes in 36 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 25/25] 60.191.38.78 () {34 vars in 514 bytes} [Thu Jun  7 02:15:35 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 26/26] 121.233.45.194 () {28 vars in 305 bytes} [Thu Jun  7 03:50:17 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 27/27] 31.223.10.233 () {32 vars in 460 bytes} [Thu Jun  7 05:44:21 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 28/28] 34.207.130.196 () {36 vars in 518 bytes} [Thu Jun  7 05:52:18 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 29/29] 47.94.39.226 () {22 vars in 220 bytes} [Thu Jun  7 06:14:03 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 30/30] 187.155.37.30 () {32 vars in 467 bytes} [Thu Jun  7 06:24:27 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 31/31] 179.99.43.168 () {32 vars in 461 bytes} [Thu Jun  7 06:45:06 2018] GET / => generated 26 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1331|app: 0|req: 1/32] 179.99.43.168 () {32 vars in 467 bytes} [Thu Jun  7 06:45:06 2018] GET / => generated 26 bytes in 73 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 32/33] 182.48.105.210 () {40 vars in 565 bytes} [Thu Jun  7 07:00:25 2018] GET /l.php => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 1331|app: 0|req: 2/34] 95.213.187.190 () {40 vars in 705 bytes} [Thu Jun  7 07:26:15 2018] POST /azenv.php?auth=152832757569&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 33/35] 171.43.187.62 () {32 vars in 348 bytes} [Thu Jun  7 07:36:37 2018] HEAD / => generated 4858 bytes in 35 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 34/36] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:39 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 1327|app: 0|req: 1/37] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:39 2018] GET /favicon.ico => generated 85 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 35/38] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:41 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 1327|app: 0|req: 2/39] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:41 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 36/40] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:41 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1331|app: 0|req: 3/41] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:41 2018] GET /favicon.ico => generated 85 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1331|app: 0|req: 4/42] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:41 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 1332|app: 0|req: 1/43] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:42 2018] GET /favicon.ico => generated 85 bytes in 21 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 37/44] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:42 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 1327|app: 0|req: 3/45] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:42 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 1332|app: 0|req: 2/46] 182.246.11.230 () {38 vars in 696 bytes} [Thu Jun  7 08:54:42 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 38/47] 182.246.11.230 () {42 vars in 798 bytes} [Thu Jun  7 08:54:43 2018] GET / => generated 4858 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 39/48] 182.246.11.230 () {44 vars in 845 bytes} [Thu Jun  7 08:54:52 2018] GET /blog/ => generated 5160 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 1331|app: 0|req: 5/49] 182.246.11.230 () {44 vars in 852 bytes} [Thu Jun  7 08:54:54 2018] GET /blog/1 => generated 4981 bytes in 56 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 40/50] 182.246.11.230 () {44 vars in 858 bytes} [Thu Jun  7 08:54:59 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 41/51] 27.208.160.162 () {28 vars in 305 bytes} [Thu Jun  7 09:29:22 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 1330|app: 0|req: 42/52] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 09:38:27 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1331|app: 0|req: 6/53] 78.131.197.60 () {32 vars in 461 bytes} [Thu Jun  7 09:39:20 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1331|app: 0|req: 7/54] 182.246.11.230 () {44 vars in 863 bytes} [Thu Jun  7 09:51:36 2018] GET /blog/ => generated 5160 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 43/55] 182.246.11.230 () {44 vars in 858 bytes} [Thu Jun  7 09:51:39 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 44/56] 182.246.11.230 () {44 vars in 863 bytes} [Thu Jun  7 09:53:12 2018] GET /blog/ => generated 5160 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 45/57] 182.246.11.230 () {40 vars in 676 bytes} [Thu Jun  7 09:53:36 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 46/58] 182.246.11.230 () {42 vars in 723 bytes} [Thu Jun  7 09:53:41 2018] GET /blog/ => generated 5160 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 1330|app: 0|req: 47/59] 182.246.11.230 () {44 vars in 858 bytes} [Thu Jun  7 09:55:46 2018] GET / => generated 4858 bytes in 38 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1330|app: 0|req: 48/60] 80.82.70.187 () {32 vars in 429 bytes} [Thu Jun  7 10:30:55 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu Jun  7 10:39:44 2018] ***
+compiled with version: 5.4.0 20160609 on 05 June 2018 13:04:00
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: warlock921
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/wwwroot/int81
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/wwwroot/int81
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :9001 fd 3
+spawned uWSGI http 1 (pid: 2142)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1b84bd0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333376 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1b84bd0 pid: 2141 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2141, cores: 2)
+spawned uWSGI worker 2 (pid: 2144, cores: 2)
+spawned uWSGI worker 3 (pid: 2145, cores: 2)
+spawned uWSGI worker 4 (pid: 2146, cores: 2)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2141|app: 0|req: 1/1] 182.246.11.230 () {46 vars in 889 bytes} [Thu Jun  7 10:39:47 2018] GET / => generated 4858 bytes in 84 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 1/2] 201.110.157.146 () {32 vars in 463 bytes} [Thu Jun  7 10:40:03 2018] GET / => generated 26 bytes in 52 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 2/3] 182.246.11.230 () {40 vars in 676 bytes} [Thu Jun  7 10:40:11 2018] GET / => generated 4858 bytes in 56 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 3/4] 182.246.11.230 () {42 vars in 723 bytes} [Thu Jun  7 10:40:16 2018] GET /blog/ => generated 5160 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 4/5] 182.246.11.230 () {42 vars in 718 bytes} [Thu Jun  7 10:40:18 2018] GET / => generated 4858 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 5/6] 106.11.227.251 () {40 vars in 623 bytes} [Thu Jun  7 10:50:08 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 6/7] 182.246.11.230 () {44 vars in 749 bytes} [Thu Jun  7 10:55:24 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 7/8] 182.246.11.230 () {42 vars in 725 bytes} [Thu Jun  7 10:55:34 2018] GET /blog/1 => generated 4981 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 8/9] 182.246.11.230 () {44 vars in 787 bytes} [Thu Jun  7 10:55:36 2018] GET /login/?from=/blog/1 => generated 3539 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 9/10] 182.246.11.230 () {52 vars in 1059 bytes} [Thu Jun  7 10:55:42 2018] POST /login/?from=/blog/1 => generated 0 bytes in 121 msecs (HTTP/1.1 302) 7 headers in 428 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 10/11] 182.246.11.230 () {46 vars in 926 bytes} [Thu Jun  7 10:55:42 2018] GET /blog/1 => generated 5803 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 11/12] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 11:01:58 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2141|app: 0|req: 2/13] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 11:02:03 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 1/14] 206.63.78.32 () {32 vars in 466 bytes} [Thu Jun  7 11:50:53 2018] GET / => generated 26 bytes in 59 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2146|app: 0|req: 2/15] 183.136.190.62 () {40 vars in 631 bytes} [Thu Jun  7 11:56:51 2018] GET / => generated 4858 bytes in 90 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 12/16] 58.213.63.186 () {36 vars in 492 bytes} [Thu Jun  7 12:15:20 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 13/17] 106.75.92.187 () {38 vars in 592 bytes} [Thu Jun  7 12:22:25 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 14/18] 201.103.30.49 () {32 vars in 460 bytes} [Thu Jun  7 12:27:21 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 15/19] 72.38.88.84 () {32 vars in 458 bytes} [Thu Jun  7 12:51:08 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 16/20] 201.105.105.156 () {32 vars in 463 bytes} [Thu Jun  7 13:22:42 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 17/21] 189.172.211.33 () {32 vars in 461 bytes} [Thu Jun  7 13:26:38 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 18/22] 41.77.194.132 () {32 vars in 467 bytes} [Thu Jun  7 13:57:43 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 19/23] 187.207.198.251 () {32 vars in 462 bytes} [Thu Jun  7 14:23:32 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 20/24] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 14:49:43 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 3/25] 181.224.250.106 () {32 vars in 463 bytes} [Thu Jun  7 15:04:31 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 4/26] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:17:11 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 1/27] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:17:14 2018] GET /favicon.ico => generated 85 bytes in 22 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 2/28] 106.11.225.74 () {40 vars in 619 bytes} [Thu Jun  7 15:23:03 2018] GET / => generated 4858 bytes in 85 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 5/29] 5.178.86.75 () {40 vars in 702 bytes} [Thu Jun  7 15:30:21 2018] POST /azenv.php?auth=152835662157&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 21/30] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:36 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2141|app: 0|req: 3/31] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:38 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 6/32] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:39 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 22/33] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:39 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 3/34] 182.246.11.230 () {38 vars in 765 bytes} [Thu Jun  7 15:35:40 2018] GET / => generated 4858 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 4/35] 182.246.11.230 () {38 vars in 812 bytes} [Thu Jun  7 15:35:40 2018] GET /static/css/bootstrap-3.3.7/css/bootstrap.min.css => generated 122 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 7/36] 182.246.11.230 () {38 vars in 760 bytes} [Thu Jun  7 15:35:40 2018] GET /static/css/default.css => generated 96 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 23/37] 182.246.11.230 () {38 vars in 770 bytes} [Thu Jun  7 15:35:41 2018] GET /static/image/logo3.png => generated 96 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 4/38] 182.246.11.230 () {38 vars in 793 bytes} [Thu Jun  7 15:35:41 2018] GET /static/css/bootstrap-3.3.7/js/bootstrap.min.js => generated 120 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 24/39] 182.246.11.230 () {38 vars in 761 bytes} [Thu Jun  7 15:35:41 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 8/40] 182.246.11.230 () {38 vars in 749 bytes} [Thu Jun  7 15:35:41 2018] GET /static/image/favicon.ico => generated 98 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 5/41] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:43 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 6/42] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:45 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 25/43] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:45 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 26/44] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 15:35:45 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 5/45] 182.246.11.230 () {42 vars in 816 bytes} [Thu Jun  7 15:35:45 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 9/46] 182.246.11.230 () {44 vars in 863 bytes} [Thu Jun  7 15:36:13 2018] GET /blog/ => generated 5160 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 27/47] 182.246.11.230 () {44 vars in 870 bytes} [Thu Jun  7 15:36:16 2018] GET /blog/1 => generated 4981 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 28/48] 182.246.11.230 () {44 vars in 859 bytes} [Thu Jun  7 15:36:19 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 29/49] 103.212.90.115 () {32 vars in 462 bytes} [Thu Jun  7 15:58:41 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 30/50] 36.67.13.66 () {32 vars in 459 bytes} [Thu Jun  7 16:02:45 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 31/51] 114.30.72.233 () {32 vars in 461 bytes} [Thu Jun  7 16:19:48 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 32/52] 175.138.134.122 () {32 vars in 462 bytes} [Thu Jun  7 16:23:23 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 33/53] 182.246.11.230 () {42 vars in 837 bytes} [Thu Jun  7 16:30:54 2018] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 10/54] 182.246.11.230 () {42 vars in 839 bytes} [Thu Jun  7 16:30:54 2018] GET /admin/ => generated 8466 bytes in 37 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 11/55] 182.246.11.230 () {42 vars in 811 bytes} [Thu Jun  7 16:30:56 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 6/56] 182.246.11.230 () {44 vars in 910 bytes} [Thu Jun  7 16:30:58 2018] GET /admin/mainsite/blog/ => generated 5922 bytes in 79 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 7/57] 182.246.11.230 () {42 vars in 793 bytes} [Thu Jun  7 16:30:58 2018] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 12/58] 182.246.11.230 () {44 vars in 932 bytes} [Thu Jun  7 16:31:01 2018] GET /admin/mainsite/blog/add/ => generated 11618 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 34/59] 182.246.11.230 () {42 vars in 797 bytes} [Thu Jun  7 16:31:02 2018] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 35/60] 203.208.60.211 () {36 vars in 518 bytes} [Thu Jun  7 16:39:41 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 8/61] 203.208.60.211 () {38 vars in 576 bytes} [Thu Jun  7 16:39:41 2018] GET / => generated 4858 bytes in 38 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 9/62] 203.208.60.210 () {38 vars in 588 bytes} [Thu Jun  7 16:40:15 2018] GET /blog/1 => generated 4981 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 36/63] 203.208.60.209 () {38 vars in 586 bytes} [Thu Jun  7 16:42:29 2018] GET /blog/ => generated 5160 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 37/64] 203.208.60.208 () {38 vars in 626 bytes} [Thu Jun  7 16:42:39 2018] GET /blog/blog-type-selected/1 => generated 4994 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 38/65] 203.208.60.208 () {38 vars in 613 bytes} [Thu Jun  7 16:42:44 2018] GET /login/?from=/blog/1 => generated 3539 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 10/66] 203.208.60.208 () {38 vars in 619 bytes} [Thu Jun  7 16:42:49 2018] GET /register/?from=/blog/1 => generated 4457 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 11/67] 203.208.60.208 () {38 vars in 626 bytes} [Thu Jun  7 16:42:56 2018] GET /blog/blog-type-selected/2 => generated 3987 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 39/68] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 16:57:07 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2141|app: 0|req: 7/69] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 16:57:17 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 40/70] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 17:01:03 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 13/71] 182.246.11.230 () {38 vars in 714 bytes} [Thu Jun  7 17:01:08 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 14/72] 182.246.11.230 () {52 vars in 1193 bytes} [Thu Jun  7 17:04:27 2018] POST /admin/mainsite/blog/add/ => generated 53848 bytes in 29 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 41/73] 182.246.11.230 () {42 vars in 797 bytes} [Thu Jun  7 17:04:27 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 42/74] 182.246.11.230 () {52 vars in 1193 bytes} [Thu Jun  7 17:04:34 2018] POST /admin/mainsite/blog/add/ => generated 53793 bytes in 63 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 43/75] 182.246.11.230 () {42 vars in 797 bytes} [Thu Jun  7 17:04:34 2018] GET /admin/jsi18n/ => generated 7684 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 12/76] 182.246.11.230 () {52 vars in 1193 bytes} [Thu Jun  7 17:04:44 2018] POST /admin/mainsite/blog/add/ => generated 0 bytes in 20 msecs (HTTP/1.1 302) 8 headers in 510 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 13/77] 182.246.11.230 () {46 vars in 1178 bytes} [Thu Jun  7 17:04:44 2018] GET /admin/mainsite/blog/ => generated 6609 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 44/78] 182.246.11.230 () {42 vars in 793 bytes} [Thu Jun  7 17:04:44 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 45/79] 182.246.11.230 () {44 vars in 884 bytes} [Thu Jun  7 17:04:46 2018] GET / => generated 4858 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 46/80] 182.246.11.230 () {44 vars in 874 bytes} [Thu Jun  7 17:04:51 2018] GET /blog/ => generated 6199 bytes in 27 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 47/81] 182.246.11.230 () {44 vars in 881 bytes} [Thu Jun  7 17:04:53 2018] GET /blog/2 => generated 40163 bytes in 37 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 48/82] 182.246.11.230 () {44 vars in 898 bytes} [Thu Jun  7 17:05:07 2018] GET /blog/ => generated 6199 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 49/83] 182.246.11.230 () {42 vars in 857 bytes} [Thu Jun  7 17:05:14 2018] GET /admin/ => generated 8763 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 50/84] 182.246.11.230 () {44 vars in 928 bytes} [Thu Jun  7 17:05:16 2018] GET /admin/mainsite/blog/ => generated 6431 bytes in 31 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 51/85] 182.246.11.230 () {42 vars in 811 bytes} [Thu Jun  7 17:05:16 2018] GET /admin/jsi18n/ => generated 7684 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 14/86] 182.246.11.230 () {44 vars in 960 bytes} [Thu Jun  7 17:05:23 2018] GET /admin/mainsite/blog/2/change/ => generated 53810 bytes in 41 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 15/87] 182.246.11.230 () {42 vars in 820 bytes} [Thu Jun  7 17:05:23 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 52/88] 189.225.189.90 () {32 vars in 462 bytes} [Thu Jun  7 17:05:23 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 53/89] 182.246.11.230 () {52 vars in 1226 bytes} [Thu Jun  7 17:05:46 2018] POST /admin/mainsite/blog/2/change/ => generated 0 bytes in 29 msecs (HTTP/1.1 302) 8 headers in 510 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 54/90] 182.246.11.230 () {46 vars in 1201 bytes} [Thu Jun  7 17:05:46 2018] GET /admin/mainsite/blog/ => generated 6609 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 55/91] 182.246.11.230 () {42 vars in 811 bytes} [Thu Jun  7 17:05:46 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 16/92] 182.246.11.230 () {44 vars in 902 bytes} [Thu Jun  7 17:05:51 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 17/93] 182.246.11.230 () {44 vars in 892 bytes} [Thu Jun  7 17:05:53 2018] GET /blog/ => generated 6172 bytes in 25 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 56/94] 182.246.11.230 () {44 vars in 899 bytes} [Thu Jun  7 17:05:54 2018] GET /blog/2 => generated 34380 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 57/95] 182.246.11.230 () {44 vars in 846 bytes} [Thu Jun  7 17:05:54 2018] GET /blog/github/400.woff => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 15/96] 182.246.11.230 () {44 vars in 846 bytes} [Thu Jun  7 17:05:55 2018] GET /blog/github/700.woff => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 18/97] 182.246.11.230 () {44 vars in 888 bytes} [Thu Jun  7 17:06:12 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 19/98] 182.246.11.230 () {44 vars in 892 bytes} [Thu Jun  7 17:06:14 2018] GET /blog/ => generated 6172 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 58/99] 182.246.11.230 () {44 vars in 899 bytes} [Thu Jun  7 17:06:15 2018] GET /blog/1 => generated 5849 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2146|app: 0|req: 16/100] 182.246.11.230 () {44 vars in 888 bytes} [Thu Jun  7 17:06:19 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 59/101] 182.246.11.230 () {44 vars in 892 bytes} [Thu Jun  7 17:06:21 2018] GET /blog/ => generated 6172 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 60/102] 182.246.11.230 () {44 vars in 899 bytes} [Thu Jun  7 17:06:22 2018] GET /blog/2 => generated 34380 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 61/103] 182.246.11.230 () {44 vars in 846 bytes} [Thu Jun  7 17:06:22 2018] GET /blog/github/700.woff => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 17/104] 182.246.11.230 () {44 vars in 846 bytes} [Thu Jun  7 17:06:22 2018] GET /blog/github/400.woff => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2141|app: 0|req: 8/105] 182.246.11.230 () {44 vars in 888 bytes} [Thu Jun  7 17:07:35 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 18/106] 182.246.11.230 () {44 vars in 894 bytes} [Thu Jun  7 17:07:37 2018] GET /blog/1 => generated 5849 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 62/107] 182.246.11.230 () {44 vars in 888 bytes} [Thu Jun  7 17:07:39 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 63/108] 182.246.11.230 () {44 vars in 892 bytes} [Thu Jun  7 17:07:42 2018] GET /blog/ => generated 6172 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 64/109] 182.246.11.230 () {44 vars in 899 bytes} [Thu Jun  7 17:07:53 2018] GET /blog/2 => generated 34380 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 65/110] 182.246.11.230 () {44 vars in 846 bytes} [Thu Jun  7 17:07:53 2018] GET /blog/github/400.woff => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 9/111] 182.246.11.230 () {44 vars in 846 bytes} [Thu Jun  7 17:07:53 2018] GET /blog/github/700.woff => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 19/112] 182.246.11.230 () {42 vars in 857 bytes} [Thu Jun  7 17:08:10 2018] GET /admin/ => generated 9063 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 66/113] 182.246.11.230 () {44 vars in 928 bytes} [Thu Jun  7 17:08:12 2018] GET /admin/mainsite/blog/ => generated 6431 bytes in 25 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 20/114] 182.246.11.230 () {42 vars in 811 bytes} [Thu Jun  7 17:08:12 2018] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 67/115] 182.246.11.230 () {52 vars in 1125 bytes} [Thu Jun  7 17:08:17 2018] POST /admin/mainsite/blog/ => generated 3504 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 68/116] 182.246.11.230 () {52 vars in 1125 bytes} [Thu Jun  7 17:08:18 2018] POST /admin/mainsite/blog/ => generated 0 bytes in 25 msecs (HTTP/1.1 302) 8 headers in 436 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 69/117] 182.246.11.230 () {46 vars in 1118 bytes} [Thu Jun  7 17:08:18 2018] GET /admin/mainsite/blog/ => generated 6040 bytes in 34 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 70/118] 182.246.11.230 () {42 vars in 811 bytes} [Thu Jun  7 17:08:18 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 20/119] 182.246.11.230 () {44 vars in 950 bytes} [Thu Jun  7 17:08:59 2018] GET /admin/mainsite/blog/add/ => generated 11618 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 21/120] 182.246.11.230 () {42 vars in 815 bytes} [Thu Jun  7 17:08:59 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 71/121] 114.215.45.101 () {32 vars in 361 bytes} [Thu Jun  7 17:28:22 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 72/122] 140.82.52.83 () {36 vars in 510 bytes} [Thu Jun  7 17:33:21 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 73/123] 140.82.52.83 () {36 vars in 510 bytes} [Thu Jun  7 17:33:21 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 74/124] 140.82.52.83 () {36 vars in 522 bytes} [Thu Jun  7 17:33:29 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 21/125] 140.82.52.83 () {36 vars in 526 bytes} [Thu Jun  7 17:33:30 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 23/126] 140.82.52.83 () {36 vars in 528 bytes} [Thu Jun  7 17:33:30 2018] GET /sitemap.xml => generated 85 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 23/127] 140.82.52.83 () {36 vars in 517 bytes} [Thu Jun  7 17:33:30 2018] GET / => generated 26 bytes in 18 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 24/128] 203.208.60.211 () {38 vars in 576 bytes} [Thu Jun  7 18:05:46 2018] GET / => generated 4858 bytes in 48 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 75/129] 187.175.19.173 () {32 vars in 468 bytes} [Thu Jun  7 18:12:15 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2146|app: 0|req: 22/130] 100.2.24.155 () {26 vars in 276 bytes} [Thu Jun  7 18:13:54 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 76/131] 138.36.234.219 () {32 vars in 461 bytes} [Thu Jun  7 18:30:43 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 77/132] 203.208.60.212 () {40 vars in 681 bytes} [Thu Jun  7 18:41:40 2018] GET /blog/blog-type-selected/1 => generated 4994 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 78/133] 80.82.78.50 () {28 vars in 412 bytes} [Thu Jun  7 19:06:43 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 79/134] 60.191.38.77 () {34 vars in 514 bytes} [Thu Jun  7 19:38:30 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 80/135] 45.115.252.92 () {32 vars in 461 bytes} [Thu Jun  7 20:29:17 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 81/136] 169.239.56.28 () {32 vars in 461 bytes} [Thu Jun  7 20:52:48 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 82/137] 172.104.108.109 () {34 vars in 388 bytes} [Thu Jun  7 20:54:48 2018] GET / => generated 26 bytes in 15 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 83/138] 91.243.166.31 () {38 vars in 613 bytes} [Thu Jun  7 21:12:18 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 84/139] 189.152.39.176 () {32 vars in 461 bytes} [Thu Jun  7 21:23:11 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 85/140] 195.200.245.174 () {32 vars in 463 bytes} [Thu Jun  7 21:45:04 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 86/141] 203.208.60.212 () {40 vars in 668 bytes} [Thu Jun  7 21:54:05 2018] GET /login/?from=/blog/1 => generated 3539 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 25/142] 203.208.60.212 () {40 vars in 668 bytes} [Thu Jun  7 21:54:06 2018] GET /login/?from=/blog/1 => generated 3539 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 26/143] 139.162.88.63 () {32 vars in 416 bytes} [Thu Jun  7 22:17:52 2018] GET /echo.php?info=1234567890 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 87/144] 203.208.60.212 () {40 vars in 674 bytes} [Thu Jun  7 23:20:25 2018] GET /register/?from=/blog/1 => generated 4457 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 88/145] 178.253.47.149 () {38 vars in 608 bytes} [Thu Jun  7 23:34:33 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 89/146] 177.102.59.96 () {32 vars in 460 bytes} [Thu Jun  7 23:46:01 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 90/147] 89.249.88.158 () {32 vars in 460 bytes} [Fri Jun  8 00:35:39 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 91/148] 200.55.253.194 () {32 vars in 462 bytes} [Fri Jun  8 00:38:07 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 92/149] 95.213.187.188 () {40 vars in 705 bytes} [Fri Jun  8 00:38:32 2018] POST /azenv.php?auth=152838951289&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 93/150] 185.47.64.212 () {32 vars in 467 bytes} [Fri Jun  8 00:53:25 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 94/151] 95.170.156.247 () {32 vars in 462 bytes} [Fri Jun  8 01:00:45 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 95/152] 120.55.13.109 () {26 vars in 277 bytes} [Fri Jun  8 01:13:51 2018] GET / => generated 4719 bytes in 39 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 96/153] 95.6.35.136 () {32 vars in 459 bytes} [Fri Jun  8 02:48:08 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 97/154] 81.161.67.240 () {32 vars in 460 bytes} [Fri Jun  8 03:09:26 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 98/155] 123.151.42.61 () {36 vars in 420 bytes} [Fri Jun  8 03:17:35 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 99/156] 47.95.28.143 () {22 vars in 220 bytes} [Fri Jun  8 03:30:44 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 100/157] 220.79.64.160 () {28 vars in 304 bytes} [Fri Jun  8 03:39:49 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 101/158] 217.29.221.185 () {32 vars in 461 bytes} [Fri Jun  8 03:58:24 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 102/159] 189.231.139.220 () {32 vars in 463 bytes} [Fri Jun  8 04:18:50 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 103/160] 165.16.37.184 () {32 vars in 461 bytes} [Fri Jun  8 04:26:56 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 104/161] 120.132.3.65 () {34 vars in 508 bytes} [Fri Jun  8 04:47:18 2018] GET /404/search_children.js => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 105/162] 80.82.70.187 () {32 vars in 429 bytes} [Fri Jun  8 05:16:05 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 106/163] 139.162.108.53 () {32 vars in 366 bytes} [Fri Jun  8 05:44:58 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 107/164] 106.15.186.63 () {34 vars in 533 bytes} [Fri Jun  8 06:29:02 2018] GET /register/?from=/blog/1 => generated 4457 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 108/165] 101.132.98.159 () {34 vars in 541 bytes} [Fri Jun  8 06:43:36 2018] GET /blog/blog-type-selected/1 => generated 4994 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 109/166] 91.155.34.143 () {38 vars in 526 bytes} [Fri Jun  8 07:37:59 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 110/167] 106.15.186.63 () {34 vars in 490 bytes} [Fri Jun  8 07:50:46 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 111/168] 197.245.18.241 () {32 vars in 462 bytes} [Fri Jun  8 07:51:33 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 112/169] 60.174.237.200 () {32 vars in 372 bytes} [Fri Jun  8 07:53:49 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 113/170] 171.4.13.9 () {32 vars in 458 bytes} [Fri Jun  8 07:55:37 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 114/171] 85.204.147.122 () {32 vars in 462 bytes} [Fri Jun  8 08:01:16 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 115/172] 203.208.60.212 () {36 vars in 518 bytes} [Fri Jun  8 08:08:33 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 23/173] 203.208.60.212 () {38 vars in 626 bytes} [Fri Jun  8 08:08:33 2018] GET /blog/blog-type-selected/3 => generated 3987 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 116/174] 203.208.60.210 () {38 vars in 636 bytes} [Fri Jun  8 08:13:11 2018] GET /blog/blog-date-selected/2018/6 => generated 5218 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 24/175] 139.224.238.50 () {34 vars in 528 bytes} [Fri Jun  8 08:14:27 2018] GET /login/?from=/blog/1 => generated 3539 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 117/176] 203.208.60.211 () {38 vars in 576 bytes} [Fri Jun  8 08:23:54 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 118/177] 46.17.41.64 () {30 vars in 370 bytes} [Fri Jun  8 08:26:09 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 119/178] 203.208.60.209 () {38 vars in 626 bytes} [Fri Jun  8 08:35:54 2018] GET /blog/blog-type-selected/2 => generated 3987 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 120/179] 95.213.187.186 () {40 vars in 705 bytes} [Fri Jun  8 08:36:47 2018] POST /azenv.php?auth=152841820733&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 121/180] 203.208.60.210 () {40 vars in 691 bytes} [Fri Jun  8 08:59:26 2018] GET /blog/blog-date-selected/2018/6 => generated 5218 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 122/181] 101.132.98.159 () {34 vars in 501 bytes} [Fri Jun  8 09:25:45 2018] GET /blog/ => generated 5160 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 123/182] 47.93.90.175 () {32 vars in 358 bytes} [Fri Jun  8 09:26:56 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 124/183] 95.70.228.6 () {32 vars in 459 bytes} [Fri Jun  8 09:30:04 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 125/184] 218.250.212.145 () {34 vars in 392 bytes} [Fri Jun  8 10:21:44 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 126/185] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:08 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 25/186] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:11 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 27/187] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:11 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 28/188] 182.246.11.230 () {42 vars in 816 bytes} [Fri Jun  8 10:26:12 2018] GET / => generated 4719 bytes in 39 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 127/189] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:14 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 10/190] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:17 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 29/191] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:17 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 26/192] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:18 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 27/193] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:18 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 128/194] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:18 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2141|app: 0|req: 11/195] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:18 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 129/196] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:18 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 30/197] 182.246.11.230 () {38 vars in 714 bytes} [Fri Jun  8 10:26:18 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 130/198] 182.246.11.230 () {42 vars in 826 bytes} [Fri Jun  8 10:26:19 2018] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 28/199] 182.246.11.230 () {42 vars in 828 bytes} [Fri Jun  8 10:26:19 2018] GET /admin/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 29/200] 182.246.11.230 () {42 vars in 865 bytes} [Fri Jun  8 10:26:19 2018] GET /admin/login/?next=/admin/ => generated 1857 bytes in 10 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 31/201] 182.246.11.230 () {42 vars in 794 bytes} [Fri Jun  8 10:26:19 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 12/202] 182.246.11.230 () {52 vars in 1104 bytes} [Fri Jun  8 10:26:29 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 119 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 131/203] 182.246.11.230 () {46 vars in 965 bytes} [Fri Jun  8 10:26:29 2018] GET /admin/ => generated 9020 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 132/204] 182.246.11.230 () {44 vars in 943 bytes} [Fri Jun  8 10:26:35 2018] GET /admin/mainsite/blog/ => generated 5922 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 133/205] 182.246.11.230 () {42 vars in 837 bytes} [Fri Jun  8 10:26:35 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 32/206] 182.246.11.230 () {44 vars in 965 bytes} [Fri Jun  8 10:26:43 2018] GET /admin/mainsite/blog/add/ => generated 11618 bytes in 25 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 33/207] 182.246.11.230 () {42 vars in 841 bytes} [Fri Jun  8 10:26:43 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 134/208] 182.246.11.230 () {38 vars in 758 bytes} [Fri Jun  8 10:27:55 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 13/209] 182.246.11.230 () {42 vars in 857 bytes} [Fri Jun  8 10:28:15 2018] GET /admin/mainsite/blog/add/ => generated 11618 bytes in 82 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 135/210] 182.246.11.230 () {42 vars in 779 bytes} [Fri Jun  8 10:28:17 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 136/211] 182.246.11.230 () {42 vars in 811 bytes} [Fri Jun  8 10:28:19 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 34/212] 182.246.11.230 () {40 vars in 713 bytes} [Fri Jun  8 10:30:39 2018] GET /admin/mainsite/blog/add/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 7 headers in 283 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 35/213] 182.246.11.230 () {40 vars in 750 bytes} [Fri Jun  8 10:30:39 2018] GET /admin/login/?next=/admin/mainsite/blog/add/ => generated 1893 bytes in 10 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 137/214] 182.246.11.230 () {42 vars in 775 bytes} [Fri Jun  8 10:30:40 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 14/215] 182.246.11.230 () {52 vars in 1096 bytes} [Fri Jun  8 10:30:47 2018] POST /admin/login/?next=/admin/mainsite/blog/add/ => generated 0 bytes in 119 msecs (HTTP/1.1 302) 9 headers in 549 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 138/216] 182.246.11.230 () {46 vars in 957 bytes} [Fri Jun  8 10:30:48 2018] GET /admin/mainsite/blog/add/ => generated 11618 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 139/217] 182.246.11.230 () {42 vars in 779 bytes} [Fri Jun  8 10:30:48 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 36/218] 52.91.241.150 () {38 vars in 532 bytes} [Fri Jun  8 10:30:59 2018] GET /admin/mainsite/blog/add/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 283 bytes (1 switches on core 0)
+[pid: 2141|app: 0|req: 15/219] 52.91.241.150 () {38 vars in 569 bytes} [Fri Jun  8 10:31:00 2018] GET /admin/login/?next=/admin/mainsite/blog/add/ => generated 1893 bytes in 10 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 37/220] 52.91.241.150 () {32 vars in 408 bytes} [Fri Jun  8 10:31:00 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 30/221] 47.92.110.185 () {34 vars in 540 bytes} [Fri Jun  8 10:33:20 2018] GET /blog/blog-type-selected/2 => generated 3987 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 31/222] 189.166.62.53 () {32 vars in 467 bytes} [Fri Jun  8 10:35:56 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 140/223] 182.246.11.230 () {38 vars in 758 bytes} [Fri Jun  8 10:37:21 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2141|app: 0|req: 16/224] 182.246.11.230 () {38 vars in 758 bytes} [Fri Jun  8 11:12:15 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 141/225] 189.173.101.49 () {26 vars in 278 bytes} [Fri Jun  8 11:13:21 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 142/226] 200.223.226.106 () {32 vars in 463 bytes} [Fri Jun  8 11:13:58 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 143/227] 182.246.11.230 () {38 vars in 758 bytes} [Fri Jun  8 11:22:49 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 32/228] 47.92.75.171 () {34 vars in 501 bytes} [Fri Jun  8 11:30:05 2018] GET /blog/1 => generated 4981 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 144/229] 170.247.126.224 () {32 vars in 463 bytes} [Fri Jun  8 11:32:18 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2146|app: 0|req: 33/230] 106.11.227.61 () {40 vars in 623 bytes} [Fri Jun  8 11:54:02 2018] GET / => generated 4858 bytes in 47 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 145/231] 183.136.190.62 () {40 vars in 631 bytes} [Fri Jun  8 11:56:17 2018] GET / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 146/232] 80.82.78.50 () {32 vars in 428 bytes} [Fri Jun  8 12:04:07 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 147/233] 106.11.226.84 () {40 vars in 619 bytes} [Fri Jun  8 12:43:42 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 148/234] 203.208.60.208 () {40 vars in 681 bytes} [Fri Jun  8 13:24:25 2018] GET /blog/blog-type-selected/2 => generated 3987 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 149/235] 80.82.70.187 () {32 vars in 429 bytes} [Fri Jun  8 14:24:54 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 150/236] 80.82.70.187 () {32 vars in 429 bytes} [Fri Jun  8 14:24:58 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 151/237] 80.82.70.187 () {32 vars in 429 bytes} [Fri Jun  8 14:25:01 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 152/238] 106.15.186.63 () {34 vars in 494 bytes} [Fri Jun  8 14:27:43 2018] GET / => generated 4858 bytes in 38 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 153/239] 111.172.206.220 () {32 vars in 354 bytes} [Fri Jun  8 14:50:00 2018] HEAD / => generated 4858 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 154/240] 172.82.166.210 () {28 vars in 415 bytes} [Fri Jun  8 14:58:12 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 155/241] 187.151.231.151 () {32 vars in 463 bytes} [Fri Jun  8 15:00:03 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 156/242] 187.151.231.151 () {32 vars in 462 bytes} [Fri Jun  8 15:00:06 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 157/243] 186.65.80.165 () {32 vars in 461 bytes} [Fri Jun  8 15:47:30 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 158/244] 203.208.60.209 () {40 vars in 681 bytes} [Fri Jun  8 16:02:25 2018] GET /blog/blog-type-selected/3 => generated 3987 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 159/245] 182.246.11.230 () {38 vars in 758 bytes} [Fri Jun  8 16:11:03 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 34/246] 41.86.150.142 () {32 vars in 460 bytes} [Fri Jun  8 16:30:05 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 35/247] 80.82.78.50 () {28 vars in 412 bytes} [Fri Jun  8 17:11:23 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 160/248] 5.178.86.78 () {40 vars in 702 bytes} [Fri Jun  8 17:26:34 2018] POST /azenv.php?auth=152844999409&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 161/249] 139.162.88.63 () {32 vars in 416 bytes} [Fri Jun  8 17:32:13 2018] GET /echo.php?info=1234567890 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 162/250] 152.171.135.64 () {32 vars in 461 bytes} [Fri Jun  8 17:52:41 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 163/251] 185.123.233.129 () {32 vars in 463 bytes} [Fri Jun  8 18:28:05 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 164/252] 176.100.216.237 () {32 vars in 463 bytes} [Fri Jun  8 18:46:49 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 165/253] 185.47.163.195 () {32 vars in 468 bytes} [Fri Jun  8 19:14:22 2018] GET / => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 166/254] 205.185.218.201 () {36 vars in 481 bytes} [Fri Jun  8 19:16:32 2018] GET /manage/content/update.php => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 167/255] 189.186.155.177 () {32 vars in 463 bytes} [Fri Jun  8 19:23:06 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 168/256] 110.232.87.181 () {32 vars in 462 bytes} [Fri Jun  8 19:26:40 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 169/257] 172.82.166.210 () {32 vars in 431 bytes} [Fri Jun  8 19:43:40 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 170/258] 187.155.89.151 () {32 vars in 462 bytes} [Fri Jun  8 19:53:57 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 171/259] 60.28.128.178 () {34 vars in 423 bytes} [Fri Jun  8 20:16:53 2018] GET / => generated 4858 bytes in 36 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 172/260] 189.186.6.90 () {32 vars in 466 bytes} [Fri Jun  8 20:44:56 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 173/261] 78.189.49.109 () {26 vars in 277 bytes} [Fri Jun  8 21:32:38 2018] GET / => generated 4858 bytes in 39 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 174/262] 36.81.5.230 () {32 vars in 459 bytes} [Fri Jun  8 21:53:47 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 175/263] 203.208.60.208 () {36 vars in 518 bytes} [Fri Jun  8 22:24:17 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2146|app: 0|req: 36/264] 203.208.60.208 () {38 vars in 576 bytes} [Fri Jun  8 22:24:17 2018] GET / => generated 4858 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 176/265] 71.6.202.198 () {32 vars in 415 bytes} [Fri Jun  8 22:56:14 2018] GET /ccvv => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 37/266] 80.82.70.187 () {32 vars in 429 bytes} [Fri Jun  8 23:37:36 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 177/267] 177.55.249.218 () {32 vars in 462 bytes} [Sat Jun  9 00:15:40 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 178/268] 13.57.220.0 () {34 vars in 487 bytes} [Sat Jun  9 00:21:15 2018] GET / => generated 4719 bytes in 34 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 179/269] 212.83.146.233 () {34 vars in 516 bytes} [Sat Jun  9 00:25:01 2018] GET / => generated 26 bytes in 39 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 180/270] 103.207.173.109 () {32 vars in 469 bytes} [Sat Jun  9 00:32:21 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 181/271] 188.242.221.147 () {32 vars in 463 bytes} [Sat Jun  9 00:59:00 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 182/272] 77.159.90.44 () {32 vars in 460 bytes} [Sat Jun  9 01:07:19 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 183/273] 60.191.38.78 () {34 vars in 514 bytes} [Sat Jun  9 01:23:23 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 184/274] 47.94.39.226 () {26 vars in 276 bytes} [Sat Jun  9 01:27:44 2018] GET / => generated 4719 bytes in 35 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 185/275] 95.213.187.189 () {40 vars in 705 bytes} [Sat Jun  9 01:43:37 2018] POST /azenv.php?auth=152847981709&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 15 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 186/276] 123.151.42.61 () {36 vars in 420 bytes} [Sat Jun  9 01:49:54 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 187/277] 123.151.42.61 () {36 vars in 420 bytes} [Sat Jun  9 01:49:55 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 188/278] 109.121.162.154 () {32 vars in 469 bytes} [Sat Jun  9 02:27:43 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 189/279] 39.107.14.208 () {26 vars in 277 bytes} [Sat Jun  9 02:40:29 2018] GET / => generated 4719 bytes in 49 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 190/280] 111.230.221.107 () {34 vars in 392 bytes} [Sat Jun  9 02:47:05 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 191/281] 49.0.36.190 () {32 vars in 459 bytes} [Sat Jun  9 03:00:06 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 192/282] 39.107.126.72 () {34 vars in 540 bytes} [Sat Jun  9 03:43:15 2018] GET /blog/blog-type-selected/2 => generated 3987 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 193/283] 177.94.109.91 () {32 vars in 460 bytes} [Sat Jun  9 04:26:06 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 194/284] 47.93.180.168 () {22 vars in 221 bytes} [Sat Jun  9 04:43:01 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 195/285] 111.73.46.165 () {30 vars in 332 bytes} [Sat Jun  9 04:50:45 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 196/286] 111.73.46.165 () {30 vars in 2010 bytes} [Sat Jun  9 04:50:45 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 197/287] 111.73.46.165 () {30 vars in 2026 bytes} [Sat Jun  9 04:50:45 2018] GET /index.do => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 198/288] 111.73.46.165 () {30 vars in 2034 bytes} [Sat Jun  9 04:50:45 2018] GET /index.action => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 199/289] 111.73.46.165 () {30 vars in 2028 bytes} [Sat Jun  9 04:50:45 2018] GET /index.jsp => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 200/290] 111.73.46.165 () {30 vars in 2026 bytes} [Sat Jun  9 04:50:46 2018] GET /login.do => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 201/291] 111.73.46.165 () {30 vars in 2034 bytes} [Sat Jun  9 04:50:46 2018] GET /login.action => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 202/292] 111.73.46.165 () {30 vars in 2028 bytes} [Sat Jun  9 04:50:46 2018] GET /login.jsp => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 203/293] 111.73.46.165 () {30 vars in 2026 bytes} [Sat Jun  9 04:50:46 2018] GET /main.jsp => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 204/294] 111.73.46.165 () {30 vars in 2032 bytes} [Sat Jun  9 04:50:46 2018] GET /default.jsp => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 205/295] 111.73.46.165 () {30 vars in 2034 bytes} [Sat Jun  9 04:50:46 2018] GET /register.jsp => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 206/296] 111.73.46.165 () {30 vars in 2040 bytes} [Sat Jun  9 04:50:46 2018] GET /login/login.jsp => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 207/297] 111.73.46.165 () {30 vars in 2058 bytes} [Sat Jun  9 04:50:46 2018] GET /login/indexAction.action => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 208/298] 111.73.46.165 () {30 vars in 2046 bytes} [Sat Jun  9 04:50:46 2018] GET /indexAction.action => generated 26 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 209/299] 172.104.108.109 () {34 vars in 388 bytes} [Sat Jun  9 05:18:24 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 210/300] 85.97.109.40 () {32 vars in 460 bytes} [Sat Jun  9 05:35:06 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 211/301] 176.36.5.168 () {32 vars in 459 bytes} [Sat Jun  9 06:14:14 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 212/302] 177.22.199.125 () {32 vars in 468 bytes} [Sat Jun  9 06:21:05 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 213/303] 46.161.9.31 () {46 vars in 576 bytes} [Sat Jun  9 06:39:37 2018] GET /echo.php => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 214/304] 177.38.5.231 () {32 vars in 460 bytes} [Sat Jun  9 06:52:04 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 215/305] 138.122.94.189 () {38 vars in 527 bytes} [Sat Jun  9 07:10:28 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 216/306] 81.196.95.169 () {32 vars in 461 bytes} [Sat Jun  9 08:07:55 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 217/307] 85.96.191.129 () {32 vars in 460 bytes} [Sat Jun  9 08:22:22 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 218/308] 80.82.70.187 () {32 vars in 429 bytes} [Sat Jun  9 08:45:26 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 219/309] 78.171.3.38 () {32 vars in 459 bytes} [Sat Jun  9 09:23:04 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 220/310] 41.33.58.253 () {26 vars in 276 bytes} [Sat Jun  9 09:27:26 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 221/311] 181.210.85.123 () {32 vars in 462 bytes} [Sat Jun  9 09:31:12 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 222/312] 107.170.226.9 () {34 vars in 390 bytes} [Sat Jun  9 09:36:07 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 223/313] 80.82.78.50 () {32 vars in 428 bytes} [Sat Jun  9 10:06:13 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 224/314] 89.37.10.37 () {32 vars in 459 bytes} [Sat Jun  9 10:15:20 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 225/315] 189.18.179.88 () {32 vars in 467 bytes} [Sat Jun  9 10:19:24 2018] GET / => generated 26 bytes in 11 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 226/316] 101.132.97.53 () {34 vars in 540 bytes} [Sat Jun  9 10:23:14 2018] GET /blog/blog-type-selected/3 => generated 3987 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 227/317] 189.232.4.36 () {32 vars in 459 bytes} [Sat Jun  9 10:41:05 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 228/318] 95.213.187.190 () {40 vars in 704 bytes} [Sat Jun  9 11:08:42 2018] POST /azenv.php?auth=152851372245&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 229/319] 141.212.122.160 () {34 vars in 392 bytes} [Sat Jun  9 11:12:23 2018] GET / => generated 26 bytes in 11 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 230/320] 187.138.0.176 () {32 vars in 460 bytes} [Sat Jun  9 11:52:10 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 231/321] 62.175.204.189 () {32 vars in 462 bytes} [Sat Jun  9 12:04:55 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 232/322] 188.165.206.163 () {30 vars in 335 bytes} [Sat Jun  9 12:06:59 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 233/323] 201.110.50.213 () {32 vars in 461 bytes} [Sat Jun  9 12:07:30 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 234/324] 106.11.226.55 () {40 vars in 623 bytes} [Sat Jun  9 13:30:57 2018] GET / => generated 4719 bytes in 36 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 235/325] 187.207.129.56 () {32 vars in 462 bytes} [Sat Jun  9 13:53:31 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 236/326] 101.132.98.159 () {34 vars in 491 bytes} [Sat Jun  9 13:55:09 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 237/327] 185.234.217.11 () {32 vars in 462 bytes} [Sat Jun  9 13:59:44 2018] GET / => generated 26 bytes in 11 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 238/328] 182.246.40.104 () {40 vars in 662 bytes} [Sat Jun  9 14:03:58 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 239/329] 203.208.60.212 () {36 vars in 518 bytes} [Sat Jun  9 14:39:39 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 38/330] 203.208.60.212 () {38 vars in 752 bytes} [Sat Jun  9 14:39:39 2018] GET /blog/blog-type-selected/3 => generated 3987 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 39/331] 1.30.25.245 () {28 vars in 305 bytes} [Sat Jun  9 14:47:34 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 240/332] 36.65.178.169 () {32 vars in 460 bytes} [Sat Jun  9 14:58:34 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 241/333] 196.52.43.56 () {30 vars in 371 bytes} [Sat Jun  9 15:08:08 2018] GET / => generated 4719 bytes in 38 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 242/334] 80.82.78.50 () {28 vars in 412 bytes} [Sat Jun  9 15:09:31 2018] GET http://www.baidu.com/cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 243/335] 185.182.221.85 () {32 vars in 462 bytes} [Sat Jun  9 15:17:23 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 244/336] 31.148.125.52 () {32 vars in 461 bytes} [Sat Jun  9 15:53:16 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 245/337] 201.150.149.89 () {32 vars in 462 bytes} [Sat Jun  9 16:14:55 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 246/338] 163.172.4.153 () {42 vars in 599 bytes} [Sat Jun  9 16:27:44 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 247/339] 106.11.227.149 () {40 vars in 620 bytes} [Sat Jun  9 16:43:51 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 248/340] 187.57.249.8 () {32 vars in 459 bytes} [Sat Jun  9 16:44:10 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 249/341] 95.132.117.57 () {32 vars in 467 bytes} [Sat Jun  9 17:09:13 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 250/342] 80.82.70.187 () {32 vars in 429 bytes} [Sat Jun  9 17:59:29 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 251/343] 83.69.9.31 () {32 vars in 457 bytes} [Sat Jun  9 18:14:02 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 252/344] 107.170.231.9 () {34 vars in 390 bytes} [Sat Jun  9 18:53:41 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 253/345] 200.148.103.147 () {32 vars in 463 bytes} [Sat Jun  9 19:12:58 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 254/346] 5.178.86.75 () {40 vars in 702 bytes} [Sat Jun  9 19:24:25 2018] POST /azenv.php?auth=152854346561&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 11 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 255/347] 125.64.94.200 () {26 vars in 277 bytes} [Sat Jun  9 19:26:05 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 256/348] 187.34.115.217 () {32 vars in 461 bytes} [Sat Jun  9 19:37:23 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 257/349] 58.182.243.118 () {38 vars in 527 bytes} [Sat Jun  9 19:37:47 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 258/350] 94.68.217.70 () {32 vars in 460 bytes} [Sat Jun  9 20:04:32 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 259/351] 203.208.60.208 () {38 vars in 702 bytes} [Sat Jun  9 20:25:30 2018] GET / => generated 4719 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 260/352] 182.246.40.104 () {40 vars in 684 bytes} [Sat Jun  9 20:42:07 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 261/353] 182.246.40.104 () {42 vars in 733 bytes} [Sat Jun  9 20:42:12 2018] GET /blog/1 => generated 4981 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 163 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 262/354] 182.246.40.104 () {44 vars in 758 bytes} [Sat Jun  9 20:42:15 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 263/355] 182.246.40.104 () {44 vars in 762 bytes} [Sat Jun  9 20:42:25 2018] GET /blog/ => generated 5160 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 264/356] 182.246.40.104 () {44 vars in 807 bytes} [Sat Jun  9 20:42:27 2018] GET /blog/blog-type-selected/1 => generated 4994 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 265/357] 182.246.40.104 () {44 vars in 777 bytes} [Sat Jun  9 20:42:28 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 266/358] 139.162.88.63 () {32 vars in 416 bytes} [Sat Jun  9 21:24:23 2018] GET /echo.php?info=1234567890 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 267/359] 203.208.60.209 () {38 vars in 576 bytes} [Sat Jun  9 22:09:57 2018] GET / => generated 4858 bytes in 36 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 268/360] 152.249.4.197 () {32 vars in 460 bytes} [Sat Jun  9 23:00:52 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 269/361] 80.26.220.246 () {32 vars in 461 bytes} [Sat Jun  9 23:08:58 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 270/362] 139.162.108.53 () {32 vars in 366 bytes} [Sat Jun  9 23:39:17 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 271/363] 106.14.104.214 () {26 vars in 278 bytes} [Sun Jun 10 00:50:27 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 272/364] 71.13.157.17 () {32 vars in 460 bytes} [Sun Jun 10 01:12:36 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 273/365] 202.79.34.163 () {32 vars in 460 bytes} [Sun Jun 10 01:21:29 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 274/366] 106.14.104.214 () {26 vars in 278 bytes} [Sun Jun 10 01:56:47 2018] GET / => generated 4719 bytes in 36 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 275/367] 81.163.37.143 () {32 vars in 460 bytes} [Sun Jun 10 02:25:42 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 276/368] 80.82.70.187 () {32 vars in 429 bytes} [Sun Jun 10 03:23:40 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 277/369] 188.16.148.183 () {32 vars in 468 bytes} [Sun Jun 10 03:31:29 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 278/370] 41.215.146.20 () {32 vars in 467 bytes} [Sun Jun 10 03:35:19 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 279/371] 201.108.18.230 () {32 vars in 468 bytes} [Sun Jun 10 03:57:05 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 280/372] 201.108.18.230 () {32 vars in 461 bytes} [Sun Jun 10 03:57:07 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 281/373] 92.245.175.209 () {32 vars in 462 bytes} [Sun Jun 10 04:00:35 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 282/374] 47.97.23.199 () {22 vars in 220 bytes} [Sun Jun 10 04:17:24 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 283/375] 5.178.86.76 () {40 vars in 702 bytes} [Sun Jun 10 04:28:07 2018] POST /azenv.php?auth=152857608789&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 284/376] 141.105.162.248 () {32 vars in 462 bytes} [Sun Jun 10 05:26:40 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 285/377] 106.14.104.214 () {22 vars in 222 bytes} [Sun Jun 10 05:38:47 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 286/378] 190.47.116.94 () {32 vars in 396 bytes} [Sun Jun 10 06:37:38 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 287/379] 189.159.136.50 () {32 vars in 462 bytes} [Sun Jun 10 06:55:25 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 288/380] 114.141.57.74 () {32 vars in 467 bytes} [Sun Jun 10 07:07:36 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 289/381] 176.241.193.28 () {26 vars in 278 bytes} [Sun Jun 10 07:31:37 2018] GET / => generated 4719 bytes in 34 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 290/382] 147.135.10.154 () {34 vars in 391 bytes} [Sun Jun 10 07:32:55 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 291/383] 80.82.70.118 () {30 vars in 371 bytes} [Sun Jun 10 07:53:33 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 292/384] 80.82.78.50 () {32 vars in 428 bytes} [Sun Jun 10 07:59:20 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 293/385] 82.77.114.29 () {26 vars in 276 bytes} [Sun Jun 10 07:59:28 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 40/386] 219.92.82.74 () {38 vars in 525 bytes} [Sun Jun 10 08:08:53 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 41/387] 177.103.231.167 () {32 vars in 463 bytes} [Sun Jun 10 08:15:51 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 294/388] 45.70.6.219 () {32 vars in 458 bytes} [Sun Jun 10 08:38:11 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 295/389] 94.177.127.185 () {32 vars in 461 bytes} [Sun Jun 10 09:13:01 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 296/390] 114.215.45.79 () {32 vars in 361 bytes} [Sun Jun 10 09:29:17 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 297/391] 95.181.179.63 () {40 vars in 690 bytes} [Sun Jun 10 09:30:30 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 298/392] 193.106.30.99 () {36 vars in 425 bytes} [Sun Jun 10 09:48:19 2018] HEAD / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 299/393] 220.135.53.190 () {26 vars in 278 bytes} [Sun Jun 10 10:06:03 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 300/394] 217.29.219.106 () {32 vars in 461 bytes} [Sun Jun 10 10:28:28 2018] GET / => generated 26 bytes in 26 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 301/395] 47.97.204.168 () {34 vars in 540 bytes} [Sun Jun 10 10:53:16 2018] GET /blog/blog-type-selected/3 => generated 3987 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2145|app: 0|req: 38/396] 201.152.35.128 () {32 vars in 468 bytes} [Sun Jun 10 11:06:40 2018] GET / => generated 26 bytes in 24 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 302/397] 201.152.35.128 () {32 vars in 461 bytes} [Sun Jun 10 11:06:40 2018] GET / => generated 26 bytes in 26 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 39/398] 183.136.190.62 () {40 vars in 631 bytes} [Sun Jun 10 12:13:12 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 303/399] 95.213.187.186 () {40 vars in 705 bytes} [Sun Jun 10 12:29:46 2018] POST /azenv.php?auth=152860498667&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 304/400] 112.200.85.73 () {26 vars in 277 bytes} [Sun Jun 10 12:41:04 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 305/401] 97.120.156.53 () {26 vars in 277 bytes} [Sun Jun 10 12:50:04 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 306/402] 86.109.39.229 () {32 vars in 460 bytes} [Sun Jun 10 13:11:42 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 307/403] 106.75.92.187 () {38 vars in 592 bytes} [Sun Jun 10 13:13:23 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 308/404] 90.87.183.108 () {26 vars in 277 bytes} [Sun Jun 10 13:42:10 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 309/405] 59.44.195.58 () {26 vars in 276 bytes} [Sun Jun 10 14:05:02 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 310/406] 106.11.225.92 () {40 vars in 623 bytes} [Sun Jun 10 14:05:27 2018] GET / => generated 4719 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 311/407] 47.92.35.138 () {34 vars in 493 bytes} [Sun Jun 10 14:29:28 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 312/408] 212.120.220.54 () {32 vars in 462 bytes} [Sun Jun 10 16:20:43 2018] GET / => generated 26 bytes in 10 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 313/409] 5.190.88.188 () {38 vars in 604 bytes} [Sun Jun 10 16:37:32 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 314/410] 196.219.172.242 () {26 vars in 279 bytes} [Sun Jun 10 16:39:12 2018] GET / => generated 4719 bytes in 42 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 315/411] 203.208.60.208 () {36 vars in 518 bytes} [Sun Jun 10 16:51:07 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 42/412] 203.208.60.208 () {38 vars in 712 bytes} [Sun Jun 10 16:51:08 2018] GET /blog/ => generated 5160 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 316/413] 106.11.226.149 () {40 vars in 619 bytes} [Sun Jun 10 17:27:00 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2146|app: 0|req: 43/414] 116.62.176.205 () {32 vars in 362 bytes} [Sun Jun 10 17:49:25 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 317/415] 91.210.147.81 () {40 vars in 719 bytes} [Sun Jun 10 18:25:13 2018] GET / => generated 4719 bytes in 40 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 318/416] 91.210.147.81 () {40 vars in 735 bytes} [Sun Jun 10 18:25:41 2018] GET /blog/ => generated 5160 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 320/417] 79.107.226.221 () {32 vars in 461 bytes} [Sun Jun 10 18:25:51 2018] GET / => generated 26 bytes in 24 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 320/418] 79.107.226.221 () {32 vars in 462 bytes} [Sun Jun 10 18:25:51 2018] GET / => generated 26 bytes in 17 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 321/419] 191.205.185.5 () {32 vars in 460 bytes} [Sun Jun 10 18:59:33 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 322/420] 78.186.21.151 () {26 vars in 277 bytes} [Sun Jun 10 19:27:54 2018] GET / => generated 4719 bytes in 36 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 323/421] 60.191.38.78 () {34 vars in 514 bytes} [Sun Jun 10 19:29:29 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 324/422] 139.162.88.63 () {32 vars in 416 bytes} [Sun Jun 10 19:41:28 2018] GET /echo.php?info=1234567890 => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 325/423] 191.36.156.172 () {32 vars in 461 bytes} [Sun Jun 10 20:01:10 2018] GET / => generated 26 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 326/424] 218.211.168.176 () {34 vars in 382 bytes} [Sun Jun 10 20:07:07 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 327/425] 87.19.223.169 () {38 vars in 526 bytes} [Sun Jun 10 20:37:13 2018] GET / => generated 26 bytes in 13 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 328/426] 81.16.8.45 () {26 vars in 274 bytes} [Sun Jun 10 20:41:17 2018] GET / => generated 4719 bytes in 37 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 329/427] 92.255.8.204 () {26 vars in 276 bytes} [Sun Jun 10 21:01:54 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 330/428] 95.213.187.186 () {40 vars in 704 bytes} [Sun Jun 10 21:18:07 2018] POST /azenv.php?auth=152863668789&a=PSCN&i=2018505195&p=80 => generated 26 bytes in 11 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 331/429] 74.207.243.128 () {30 vars in 373 bytes} [Sun Jun 10 21:19:00 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+系统创建了缓存 today_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+系统创建了缓存 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 332/430] 106.58.26.243 () {42 vars in 714 bytes} [Sun Jun 10 21:54:57 2018] GET / => generated 4719 bytes in 36 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 333/431] 106.58.26.243 () {44 vars in 761 bytes} [Sun Jun 10 21:55:05 2018] GET /blog/ => generated 5160 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 334/432] 106.58.26.243 () {44 vars in 756 bytes} [Sun Jun 10 21:55:09 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 335/433] 106.58.26.243 () {44 vars in 751 bytes} [Sun Jun 10 21:55:09 2018] GET / => generated 4719 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 336/434] 106.58.26.243 () {40 vars in 682 bytes} [Sun Jun 10 22:05:24 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 337/435] 106.58.26.243 () {40 vars in 692 bytes} [Sun Jun 10 22:05:32 2018] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 44/436] 106.58.26.243 () {40 vars in 694 bytes} [Sun Jun 10 22:05:32 2018] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 2141|app: 0|req: 17/437] 106.58.26.243 () {40 vars in 731 bytes} [Sun Jun 10 22:05:32 2018] GET /admin/login/?next=/admin/ => generated 1857 bytes in 6 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2146|app: 0|req: 45/438] 106.58.26.243 () {42 vars in 774 bytes} [Sun Jun 10 22:05:32 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 2141|app: 0|req: 18/439] 106.58.26.243 () {52 vars in 1065 bytes} [Sun Jun 10 22:05:36 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 118 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 338/440] 106.58.26.243 () {46 vars in 920 bytes} [Sun Jun 10 22:05:37 2018] GET /admin/ => generated 9020 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 339/441] 106.58.26.243 () {44 vars in 898 bytes} [Sun Jun 10 22:05:39 2018] GET /admin/mainsite/blog/ => generated 5922 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 340/442] 106.58.26.243 () {42 vars in 781 bytes} [Sun Jun 10 22:05:39 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 40/443] 106.58.26.243 () {44 vars in 920 bytes} [Sun Jun 10 22:05:42 2018] GET /admin/mainsite/blog/add/ => generated 11618 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 41/444] 106.58.26.243 () {42 vars in 785 bytes} [Sun Jun 10 22:05:42 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 341/445] 106.58.26.243 () {52 vars in 1179 bytes} [Sun Jun 10 22:06:20 2018] POST /admin/mainsite/blog/add/ => generated 13236 bytes in 27 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 342/446] 106.58.26.243 () {42 vars in 785 bytes} [Sun Jun 10 22:06:20 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 42/447] 106.58.26.243 () {52 vars in 1179 bytes} [Sun Jun 10 22:06:28 2018] POST /admin/mainsite/blog/add/ => generated 0 bytes in 16 msecs (HTTP/1.1 302) 8 headers in 532 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 43/448] 106.58.26.243 () {46 vars in 1188 bytes} [Sun Jun 10 22:06:28 2018] GET /admin/mainsite/blog/ => generated 6629 bytes in 24 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 343/449] 106.58.26.243 () {42 vars in 781 bytes} [Sun Jun 10 22:06:28 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2144|app: 0|req: 344/450] 106.58.26.243 () {42 vars in 815 bytes} [Sun Jun 10 22:06:35 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 345/451] 106.58.26.243 () {44 vars in 862 bytes} [Sun Jun 10 22:06:37 2018] GET /blog/ => generated 6183 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 346/452] 106.58.26.243 () {44 vars in 869 bytes} [Sun Jun 10 22:06:39 2018] GET /blog/3 => generated 5974 bytes in 33 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 0)
+[pid: 2144|app: 0|req: 347/453] 106.58.26.243 () {44 vars in 948 bytes} [Sun Jun 10 22:06:53 2018] GET /admin/mainsite/blog/3/change/ => generated 13259 bytes in 27 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 348/454] 106.58.26.243 () {42 vars in 808 bytes} [Sun Jun 10 22:06:53 2018] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2145|app: 0|req: 44/455] 80.82.70.187 () {32 vars in 429 bytes} [Sun Jun 10 22:07:31 2018] GET /cache/global/img/gs.gif => generated 26 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+读取系统缓存数据 today_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 yesterday_hot_data <class 'django.db.models.query.QuerySet'>
+读取系统缓存数据 week_hot_data <class 'django.db.models.query.QuerySet'>
+[pid: 2145|app: 0|req: 45/456] 78.189.86.4 () {26 vars in 275 bytes} [Sun Jun 10 22:19:08 2018] GET / => generated 4719 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 349/457] 106.58.26.243 () {46 vars in 919 bytes} [Sun Jun 10 22:19:50 2018] GET /blog/3 => generated 5974 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 1)
+[pid: 2144|app: 0|req: 350/458] 106.58.26.243 () {46 vars in 919 bytes} [Sun Jun 10 22:41:29 2018] GET /blog/3 => generated 5974 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 317 bytes (1 switches on core 0)
