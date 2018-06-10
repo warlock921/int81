@@ -15,7 +15,7 @@
                      {% for blog in page_num %}
                         <div class="panel panel-info">
                             <div class="panel-heading">
-                                <h2 class="panel-title"><a href="{% url 'blog_detail' blog.pk %}">{{ blog.title }}</a></h2>
+                                <h2 class="panel-title"><span class="glyphicon glyphicon-th-list" aria-hidden="true"> <a href="{% url 'blog_detail' blog.pk %}">{{ blog.title }}</a></span></h2>
                             </div>
                             <div class="panel-body">
                                 <ul class="blog-info-decription">
