@@ -5,3 +5,4 @@ mainsite/migrations/
 read_statistics/__pycache__/
 read_statistics/migrations/
 int81/settings.py
+media/
