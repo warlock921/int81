@@ -59,9 +59,9 @@ ul.blog-info-decription li {
     display: inline-block;
     margin-right: 1em;
 }
-div.blog-content {
+/* div.blog-content {
     text-indent: 2em;
-}
+} */
 div.blog-more {
     margin-top:1em;
 }
