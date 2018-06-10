@@ -11,8 +11,6 @@
     <link href="{% static 'css/bootstrap-3.3.7/css/bootstrap.min.css' %}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'css/default.css' %}">
     <link rel="stylesheet" href="{% static 'ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css' %}">
-   
-    
 </head>
 
 <body class="base-body">
@@ -47,7 +45,8 @@
         {% block content %}{% endblock content %}
     </div>
 
-    {% block footer %} {% endblock footer %} {# 导入JS文件 #}
+    {% block footer %} {% endblock footer %}
+     {# 导入JS文件 #}
     <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'css/bootstrap-3.3.7/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js' %}"></script>
